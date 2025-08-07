@@ -1,0 +1,156 @@
+2025-06-05 11:41:55 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-05 11:41:55 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6841a71ae1189d0011f67890\",\"justification\":\"S.C\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-05 11:41:55 - Pedido cancelado com sucesso - Dados: {
+    "anotai_id": "6841a71ae1189d0011f67890"
+}
+2025-06-05 13:17:06 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-05 13:17:06 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"68419bf86034ef00117f6e31\",\"justification\":\"S.C\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-05 13:17:06 - Pedido cancelado com sucesso - Dados: {
+    "anotai_id": "68419bf86034ef00117f6e31"
+}
+2025-06-05 13:18:59 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-05 13:18:59 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6841c2345bc4f73f664606bf\",\"justification\":\"SC\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-05 13:18:59 - Pedido cancelado com sucesso - Dados: {
+    "anotai_id": "6841c2345bc4f73f664606bf"
+}
+2025-06-05 13:48:19 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-05 13:48:19 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6841b9596034ef00118274e5\",\"justification\":\"Pedido cancelado pelo parceiro\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-05 13:48:19 - Pedido cancelado com sucesso - Dados: {
+    "anotai_id": "6841b9596034ef00118274e5"
+}
+2025-06-09 10:14:10 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:10 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:10 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:11 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:11 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:11 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:12 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:12 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:12 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:15 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:15 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:15 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:18 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:18 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:18 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:22 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:22 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846ddf2dafaa200116b985d\",\"justification\":\"TESTEEEEEEEEE\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:22 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846ddf2dafaa200116b985d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:56 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:56 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:56 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:57 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:57 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:57 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:14:59 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:14:59 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:14:59 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:15:01 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:15:01 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:15:01 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:15:04 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:15:04 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:15:04 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}
+2025-06-09 10:15:08 - Token recebido - Dados: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2NDM0MGM5YzYyODg0MDAwMTJhNmQ1MWMifQ.YYiAKDdkokeFpDEYy0bAkau5BYt7X4JqVoQPkK1Qjxc"
+}
+2025-06-09 10:15:08 - Dados brutos recebidos - Dados: {
+    "raw_data": "{\"id\":\"6846de37a0ef100453cf762d\",\"justification\":\"testeeeeee\",\"canceled\":true,\"merchant\":{\"id\":\"64340c9c6288400012a6d51c\"}}"
+}
+2025-06-09 10:15:08 - Erro ao cancelar pedido - Dados: {
+    "anotai_id": "6846de37a0ef100453cf762d",
+    "error": "Pedido n\u00e3o encontrado no banco de dados"
+}

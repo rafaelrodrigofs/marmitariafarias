@@ -1,0 +1,373 @@
+/* DatePicker Widget Styles - Modern & Compact */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    /* background: linear-gradient(135deg, #60bb51 0%, #f89f32 100%);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.datepicker-container {
+    max-width: 280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.date-input {
+    width: 100%;
+    padding: 12px 44px 12px 16px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #2d3748;
+}
+
+.calendar-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    color: #60bb51;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.date-input:focus {
+    outline: none;
+    border-color: #60bb51;
+    box-shadow: 0 0 0 3px rgba(96, 187, 81, 0.1);
+}
+
+.input-wrapper:hover .calendar-icon {
+    color: #f89f32;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.calendar-dropdown {
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    z-index: 1000;
+    display: none;
+    animation: slideDown 0.3s ease;
+    min-width: 280px;
+}
+
+.calendar-dropdown.active {
+    display: block;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.month-year {
+    background: linear-gradient(135deg, #60bb51, #f89f32);
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.month-year:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(96, 187, 81, 0.3);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.nav-btn {
+    background: rgba(96, 187, 81, 0.1);
+    border: 1px solid rgba(96, 187, 81, 0.2);
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: rgba(96, 187, 81, 0.2);
+    transform: translateY(-1px);
+}
+
+.nav-btn svg {
+    width: 14px;
+    height: 14px;
+    stroke: #60bb51;
+    fill: none;
+    stroke-width: 2.5;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+    margin-bottom: 16px;
+}
+
+.day-header {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #718096;
+    padding: 6px 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.day-cell {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    color: #2d3748;
+}
+
+.day-cell:hover {
+    background: rgba(96, 187, 81, 0.1);
+    transform: scale(1.05);
+}
+
+.day-cell.selected {
+    background: linear-gradient(135deg, #60bb51, #f89f32);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(96, 187, 81, 0.3);
+}
+
+.day-cell.range-start,
+.day-cell.range-end {
+    background: linear-gradient(135deg, #60bb51, #f89f32);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(96, 187, 81, 0.3);
+}
+
+.day-cell.in-range {
+    background: rgba(96, 187, 81, 0.15);
+    color: #60bb51;
+    font-weight: 600;
+}
+
+.day-cell.in-range:hover {
+    background: rgba(96, 187, 81, 0.25);
+    transform: scale(1.05);
+}
+
+.day-cell.other-month {
+    color: #cbd5e0;
+    opacity: 0.6;
+}
+
+.day-cell.today {
+    background-color: rgba(96, 187, 81, 0.15);
+    border: 1px solid #60bb51;
+    font-weight: 600;
+    color: #60bb51;
+    position: relative;
+}
+
+/* Prioridade: seleções sobrepõem o destaque de hoje */
+.day-cell.today.selected,
+.day-cell.today.range-start,
+.day-cell.today.range-end {
+    border: 2px solid #60bb51;
+    background: linear-gradient(135deg, #60bb51, #4a9d3e);
+    color: white;
+    font-weight: 700;
+}
+
+.day-cell.today.in-range {
+    background: rgba(96, 187, 81, 0.3);
+    border: 1px solid #60bb51;
+    color: #2d5016;
+    font-weight: 600;
+}
+
+/* Estilos para visualização de meses inline */
+.year-header {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.month-option {
+    padding: 12px 8px;
+    text-align: center;
+    border: 2px solid rgba(96, 187, 81, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #2d3748;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.month-option:hover {
+    background: rgba(96, 187, 81, 0.1);
+    transform: translateY(-1px);
+    border-color: rgba(96, 187, 81, 0.4);
+}
+
+.month-option.selected {
+    background: linear-gradient(135deg, #60bb51, #f89f32);
+    color: white;
+    border-color: transparent;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(96, 187, 81, 0.3);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-clear {
+    background: rgba(255, 255, 255, 0.7);
+    color: #718096;
+    border-color: rgba(113, 128, 150, 0.3);
+}
+
+.btn-clear:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-1px);
+    border-color: rgba(113, 128, 150, 0.5);
+}
+
+.btn-apply {
+    background: linear-gradient(135deg, #60bb51, #f89f32);
+    color: white;
+    border-color: transparent;
+}
+
+.btn-apply:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(96, 187, 81, 0.4);
+}
+
+/* Estilos para integração do Widget DatePicker no Dashboard */
+.dashboard-page .datepicker-container {
+    max-width: 200px !important;
+    margin: 0 !important;
+    position: relative !important;
+}
+
+.dashboard-page .date-input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    font-size: 14px !important;
+    padding: 8px 36px 8px 12px !important;
+    border-radius: 8px !important;
+}
+
+.dashboard-page .date-input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dashboard-page .calendar-icon {
+    color: rgba(255, 255, 255, 0.8) !important;
+    width: 16px !important;
+    height: 16px !important;
+    right: 10px !important;
+}
+
+.dashboard-page .date-input:focus {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Garantir que o container do header tenha position relative */
+.dashboard-page .header-subtitle {
+    position: relative !important;
+}
+
+/* Garantir que o input seja clicável */
+.dashboard-page .input-wrapper {
+    cursor: pointer !important;
+}
+
+/* Ajuste específico para o calendário no dashboard - alinhar da direita */
+.dashboard-page .calendar-dropdown {
+    right: 0 !important;
+    left: auto !important;
+}

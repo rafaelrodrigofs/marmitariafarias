@@ -1,0 +1,1992 @@
+[
+    {
+        "title": "Sobremesas",
+        "id": "67ee77580a963e3fcca4f53f",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67ee77a2cd485b69f42b4d56",
+                "title": "Mousse de Limão 100ml",
+                "description": "Uma união irresistível de sabor e qualidade! Em parceria com a Confeth' Cakes, trazemos para você o nosso mousse de limão – uma sobremesa leve e refrescante, com a cremosidade perfeita e o toque cítrico na medida certa. Com 100ml de pura delicadeza, cada colherada é uma explosão de sabor, feita com todo o carinho para adoçar seus momentos especiais.",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743682021009blob",
+                "link": "https:\/\/menu.anota.ai\/product\/67ee77a2cd485b69f42b4d62\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67f3bd6235fe9dcb038b9b15",
+                "title": "Mousse de Maracuja ",
+                "description": "",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1744035392529blob",
+                "link": "https:\/\/menu.anota.ai\/product\/67f3bd6235fe9dcb038b9b24\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "COMBOS",
+        "id": "66f2a62288abc8001cc8d932",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "66f2a65888abc8001cc8daae",
+                "title": "Lasanha + Coca 200ml",
+                "description": "",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicionais",
+                        "category_id": "65ea2a0622b4af0027cbaeb0",
+                        "min": 0,
+                        "max": 2
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1727178810097blob",
+                "link": "https:\/\/menu.anota.ai\/product\/66f2a65888abc8001cc8dab7\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "66f2a6861bfdad001ce3f478",
+                "title": "Escondidinho de carne + Coca 200ml",
+                "description": "",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicionais",
+                        "category_id": "65ea2a0622b4af0027cbaeb0",
+                        "min": 0,
+                        "max": 2
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1727179361383blob",
+                "link": "https:\/\/menu.anota.ai\/product\/66f2a6861bfdad001ce3f481\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Cardápio Especial",
+        "id": "65e8e321c5ca4d0027c619b3",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "65e8e4bba29b7c00274a78ac",
+                "title": "Massas",
+                "description": "Lasanha Bolonhesa e Escondidinho de Carne Moída",
+                "max": 1,
+                "out": true,
+                "external_id": "123",
+                "next_steps": [
+                    {
+                        "category_title": "Massas",
+                        "category_id": "65e8e514c5ca4d0027c636e4",
+                        "min": 1,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Adicionais",
+                        "category_id": "65ea2a0622b4af0027cbaeb0",
+                        "min": 0,
+                        "max": 2
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1709813120440blob",
+                "link": "https:\/\/menu.anota.ai\/product\/65e8e4bba29b7c00274a78b5\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Caldos",
+        "id": "661d0ef38b3ee012658f719f",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "661d0f0ff64474001dfe4c30",
+                "title": "Dobradinha com Calabresa",
+                "description": "Sabor tradicional com um toque especial! Nossa dobradinha de calabresa é preparada com ingredientes selecionados, cozida lentamente para garantir maciez e um caldo encorpado cheio de sabor. A combinação perfeita entre a textura suave e o tempero marcante da calabresa, criando um prato irresistível para quem ama comida caseira de verdade!\n\n",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Tamanhos",
+                        "category_id": "661d10e2f64474001dfe5d3e",
+                        "min": 1,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1717155640696blob",
+                "link": "https:\/\/menu.anota.ai\/product\/661d0f0ff64474001dfe4c39\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67f3be53a7fd2250ea650e33",
+                "title": "Caldo de Aipim com Calabresa(acompanha arroz)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Tamanho caldo",
+                        "category_id": "67f3bed14a3b02f0e2d12c2c",
+                        "min": 1,
+                        "max": 1
+                    }
+                ],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67f3be53a7fd2250ea650e3f\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Feijoada",
+        "id": "643686c596df250027a1d31a",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "643686f996df250027a1d3f4",
+                "title": "Feijoada Completa P",
+                "description": "Arroz, Vinagrete, Farofa Especial, Couve Especial, Bananinha a Milanesa",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716495735304blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643686f996df250027a1d3fd\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6436876f2ad9950027ba658d",
+                "title": "Feijoada Completa M",
+                "description": "Arroz, Vinagrete, Farofa Especial, Couve Especial, Bananinha a Milanesa",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716496849367blob",
+                "link": "https:\/\/menu.anota.ai\/product\/6436876f2ad9950027ba6596\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6436877496df250027a1d49f",
+                "title": "Feijoada Completa G",
+                "description": "Arroz, Vinagrete, Farofa Especial, Couve Especial, Bananinha a Milanesa",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716496362997blob",
+                "link": "https:\/\/menu.anota.ai\/product\/6436877496df250027a1d4a8\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "643687da2ad9950027ba674d",
+                "title": "Somente a Feijoada P",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716497403684blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643687da2ad9950027ba6756\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "643687f72ad9950027ba6830",
+                "title": "Somente a Feijoada M",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716497714457blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643687f72ad9950027ba6839\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "643687fa2ad9950027ba6860",
+                "title": "Somente a Feijoada G",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Banana",
+                        "category_id": "647b512b9487de001c6cec16",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716497744229blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643687fa2ad9950027ba6869\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Marmitas",
+        "id": "64344b7e0948c40027c487d2",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "643544fa934a32002877fcbd",
+                "title": "Marmita P",
+                "description": "JÁ ACOMPANHA SALADA ****",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Feijão",
+                        "category_id": "64344ba70948c40027c4890e",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Monte sua Marmita",
+                        "category_id": "64344bd10948c40027c48bde",
+                        "min": 2,
+                        "max": 3
+                    },
+                    {
+                        "category_title": "Carne",
+                        "category_id": "64344bfc0948c40027c48d12",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Adicional Ovo",
+                        "category_id": "643540ca934a32002877e5dd",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Adicional Salada",
+                        "category_id": "64354685934a320028780799",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Sobremesas",
+                        "category_id": "67efdf3735fe9dcb03194a58",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498776631blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643544fa934a32002877fcc6\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "64354303934a32002877f3b3",
+                "title": "Marmita M",
+                "description": "JÁ ACOMPANHA SALADA ****",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Feijão",
+                        "category_id": "64344ba70948c40027c4890e",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Monte sua Marmita",
+                        "category_id": "64344bd10948c40027c48bde",
+                        "min": 2,
+                        "max": 3
+                    },
+                    {
+                        "category_title": "Carne",
+                        "category_id": "64344bfc0948c40027c48d12",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Adicional Ovo",
+                        "category_id": "643540ca934a32002877e5dd",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Adicional Salada",
+                        "category_id": "64354685934a320028780799",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Sobremesas",
+                        "category_id": "67efdf3735fe9dcb03194a58",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498790214blob",
+                "link": "https:\/\/menu.anota.ai\/product\/64354303934a32002877f3bc\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "64354323b33d57002746b409",
+                "title": "Marmita G",
+                "description": "JÁ ACOMPANHA SALADA ****",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Feijão",
+                        "category_id": "64344ba70948c40027c4890e",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Monte sua Marmita",
+                        "category_id": "64344bd10948c40027c48bde",
+                        "min": 2,
+                        "max": 3
+                    },
+                    {
+                        "category_title": "Carne",
+                        "category_id": "64344bfc0948c40027c48d12",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Adicional Ovo",
+                        "category_id": "643540ca934a32002877e5dd",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Adicional Salada",
+                        "category_id": "64354685934a320028780799",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Sobremesas",
+                        "category_id": "67efdf3735fe9dcb03194a58",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498805000blob",
+                "link": "https:\/\/menu.anota.ai\/product\/64354323b33d57002746b412\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "664fb22a79d74000279ef6f1",
+                "title": "Marmita P Salada + Carne",
+                "description": "Somente marmita com salada e carne ",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Carne",
+                        "category_id": "64344bfc0948c40027c48d12",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Adicional Ovo",
+                        "category_id": "643540ca934a32002877e5dd",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Sobremesas",
+                        "category_id": "67efdf3735fe9dcb03194a58",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498985169blob",
+                "link": "https:\/\/menu.anota.ai\/product\/664fb22a79d74000279ef6fa\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "664fb2790d8b410027056e2a",
+                "title": "Marmita M Salada + Carne",
+                "description": "Somente marmita com salada e carne ",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Carne",
+                        "category_id": "64344bfc0948c40027c48d12",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Adicional Ovo",
+                        "category_id": "643540ca934a32002877e5dd",
+                        "min": 0,
+                        "max": 99
+                    },
+                    {
+                        "category_title": "Precisa de Talher ?",
+                        "category_id": "659af3412c2dbd0027a79417",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Sobremesas",
+                        "category_id": "67efdf3735fe9dcb03194a58",
+                        "min": 0,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498985169blob",
+                "link": "https:\/\/menu.anota.ai\/product\/664fb2790d8b410027056e33\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Adicionais Diversos",
+        "id": "66475f5ae586ae001cee0e6f",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67d982ff069180efb4952c76",
+                "title": "Additional Batata Frita(200g)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743524520075blob",
+                "link": "https:\/\/menu.anota.ai\/product\/67d982ff069180efb4952c82\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67ea81c760d492a22f917763",
+                "title": "Mandioquinha Cremosa Frita Pp(200g)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743525542765blob",
+                "link": "https:\/\/menu.anota.ai\/product\/67ea81c760d492a22f91776f\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "66bb57ce778b921aa236ca88",
+                "title": "Adicional Arroz",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Tamanho Arroz",
+                        "category_id": "67e44a722fed441acaf74573",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743033312919blob",
+                "link": "https:\/\/menu.anota.ai\/product\/66bb57ce778b921aa236ca91\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67828f8e33307eb63af80add",
+                "title": "Adicional Feijão",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Feijão Branco",
+                        "category_id": "67828f24f801a936f3fd5ffd",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "category_title": "Feijão Preto",
+                        "category_id": "67e449c7cfabad9e1ebe1aa3",
+                        "min": 0,
+                        "max": 5
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743032921194blob",
+                "link": "https:\/\/menu.anota.ai\/product\/67828f8e33307eb63af80b05\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "677d10c6b78ec111c7d6e50a",
+                "title": "Macarrao Branco(sem molho)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "tamanho macarrao ",
+                        "category_id": "67ec13b60a963e3fcc5a2acb",
+                        "min": 1,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743526637126blob",
+                "link": "https:\/\/menu.anota.ai\/product\/677d10c6b78ec111c7d6e516\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6651d84f9b140d001c0cd3f7",
+                "title": "Bananinha a Milanesa",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Banana a Milanesa",
+                        "category_id": "6651d9372f7e91001cfee9ed",
+                        "min": 1,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716840388488blob",
+                "link": "https:\/\/menu.anota.ai\/product\/6651d84f9b140d001c0cd400\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "66475f6ac9753b001c01b653",
+                "title": "Adicional Salada",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Tamanho Salada",
+                        "category_id": "67e4484359c8412e531d4a37",
+                        "min": 1,
+                        "max": 10
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716498189197blob",
+                "link": "https:\/\/menu.anota.ai\/product\/66475f6ac9753b001c01b65c\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6754468dd43bc74bc02d53b7",
+                "title": "Couve Pp",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/6754468dd43bc74bc02d53c0\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "675ae165dbe3b5001c1054d2",
+                "title": "Pure Pp",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/675ae165dbe3b5001c1054e3\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6790e527bce75c7652466e55",
+                "title": "Potinho de Vinagrete",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/6790e527bce75c7652466e61\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67c2f1ac0797d72011ce1d59",
+                "title": "Potinho de Farofa ",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67c2f1ac0797d72011ce1d65\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67ea8674cfabad9e1e7e18f1",
+                "title": "Tutu De Feijao Pp",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67ea8674cfabad9e1e7e18fd\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67ed3307cdaae4771b9bbc85",
+                "title": "Kibe Frito 200g(6 unidades)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67ed3307cdaae4771b9bbc91\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67efe6d61e431acc2a99d313",
+                "title": "Ovo Frito Unidade",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67efe6d61e431acc2a99d31f\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Adicional de Carne",
+        "id": "6435470a934a320028780bcf",
+        "is_additional": false,
+        "non_active_weekdays": [
+            {
+                "_id": "6660ba554116d15745c80fb9",
+                "start": 0,
+                "end": 86340,
+                "short_name": "sun"
+            },
+            {
+                "_id": "6660ba554116d15745c80fba",
+                "start": 0,
+                "end": 28740,
+                "short_name": "mon"
+            },
+            {
+                "_id": "6660ba554116d15745c80fbb",
+                "start": 50160,
+                "end": 86340,
+                "short_name": "mon"
+            },
+            {
+                "_id": "6660ba554116d15745c80fbc",
+                "start": 0,
+                "end": 28740,
+                "short_name": "tue"
+            },
+            {
+                "_id": "6660ba554116d15745c80fbd",
+                "start": 50160,
+                "end": 86340,
+                "short_name": "tue"
+            },
+            {
+                "_id": "6660ba554116d15745c80fbe",
+                "start": 0,
+                "end": 28740,
+                "short_name": "thu"
+            },
+            {
+                "_id": "6660ba554116d15745c80fbf",
+                "start": 50160,
+                "end": 86340,
+                "short_name": "thu"
+            },
+            {
+                "_id": "6660ba554116d15745c80fc0",
+                "start": 0,
+                "end": 28740,
+                "short_name": "fri"
+            },
+            {
+                "_id": "6660ba554116d15745c80fc1",
+                "start": 50160,
+                "end": 86340,
+                "short_name": "fri"
+            },
+            {
+                "_id": "6660ba554116d15745c80fc2",
+                "start": 0,
+                "end": 28740,
+                "short_name": "sat"
+            },
+            {
+                "_id": "6660ba554116d15745c80fc3",
+                "start": 60960,
+                "end": 86340,
+                "short_name": "sat"
+            }
+        ],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "64e7482679c61800277a057d",
+                "title": "File de Frango Grelhado(acebolado)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Carne 1",
+                        "category_id": "643547aab33d57002746dbc0",
+                        "min": 1,
+                        "max": 99
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/6435470a934a320028780bcf\/643547fb934a320028781430blob",
+                "link": "https:\/\/menu.anota.ai\/product\/64e7482679c61800277a0586\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "643547fb934a320028781430",
+                "title": "Almondegas ao Molho Vermelho",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Adicional Carne 1",
+                        "category_id": "643547aab33d57002746dbc0",
+                        "min": 1,
+                        "max": 99
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/6435470a934a320028780bcf\/643547fb934a320028781430blob",
+                "link": "https:\/\/menu.anota.ai\/product\/643547fb934a320028781439\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "662a441bcc01a7001c1a733d",
+                "title": "Figado Acebolado PP",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1714049456459blob",
+                "link": "https:\/\/menu.anota.ai\/product\/662a441bcc01a7001c1a7346\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67ea86b0f8b1eadc1fb2ca35",
+                "title": "Figado Acebolado P",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67ea86b0f8b1eadc1fb2ca41\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Bebidas",
+        "id": "6434ae940116aa00273e5833",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "6434af52934a3200287586e3",
+                "title": "Coca-Cola Lata",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1714048217525blob",
+                "link": "https:\/\/menu.anota.ai\/product\/6434af52934a3200287586ec\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "664f34f49b140d001cf478a6",
+                "title": "Fanta Laranja 350ml",
+                "description": "",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716466970846blob",
+                "link": "https:\/\/menu.anota.ai\/product\/664f34f49b140d001cf478af\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "6434c572b33d570027454628",
+                "title": "Coca-Cola Lata Zero 350ml",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1714048350877blob",
+                "link": "https:\/\/menu.anota.ai\/product\/6434c572b33d570027454631\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "664f2bd99b140d001cf40531",
+                "title": "Coca-cola 200m",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716464627106blob",
+                "link": "https:\/\/menu.anota.ai\/product\/664f2bd99b140d001cf4053a\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "662a495fcc01a7001c1aa3cd",
+                "title": "Coca-cola 600ml",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1714049163751blob",
+                "link": "https:\/\/menu.anota.ai\/product\/662a495fcc01a7001c1aa3d6\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "66473f64c9753b001c0008e3",
+                "title": "Guaraná Fanta 2 Litros",
+                "description": "",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1742991349735blob",
+                "link": "https:\/\/menu.anota.ai\/product\/66473f64c9753b001c0008ec\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "64354289b33d57002746b16f",
+                "title": "Fanta Laranja 2 Litros",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1714048918550blob",
+                "link": "https:\/\/menu.anota.ai\/product\/64354289b33d57002746b178\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "664dfcdd438703001b6fb06f",
+                "title": "Coca Cola 2 Litros",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716464023283blob",
+                "link": "https:\/\/menu.anota.ai\/product\/664dfcdd438703001b6fb078\/0\/marmitaria-farias?o=a"
+            },
+            {
+                "id": "67615d6baf0b59001c8873ba",
+                "title": "Fanta Guarana 1.5l",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "",
+                "link": "https:\/\/menu.anota.ai\/product\/67615d6baf0b59001c8873c3\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Marmitas para Congelar",
+        "id": "673104973a09f3001ca4fbf4",
+        "is_additional": false,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "673104e95361e4001c90e262",
+                "title": "Marmita para Congelar",
+                "description": "çkdsnjakldçsfnkladçsfnadsklfjadsfjads",
+                "max": 1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [
+                    {
+                        "category_title": "Proteina Vegetal",
+                        "category_id": "6731052c3a09f3001ca50044",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Proteina Animal",
+                        "category_id": "673105af7ae13d001c417bd9",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Carboidratos",
+                        "category_id": "673106043a09f3001ca505fd",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "category_title": "Vegetais",
+                        "category_id": "673106653a09f3001ca507a1",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1731265767390blob",
+                "link": "https:\/\/menu.anota.ai\/product\/673104e95361e4001c90e26b\/0\/marmitaria-farias?o=a"
+            }
+        ]
+    },
+    {
+        "title": "Massas",
+        "id": "65e8e514c5ca4d0027c636e4",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "662a5226ec069b001c88f606",
+                "title": "Lasanha Bolonhesa",
+                "description": "",
+                "max": -1,
+                "out": true,
+                "external_id": "1",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "662a5226ec069b001c88f617",
+                "title": "Escondidinho de Carne Moída",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "3",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Feijão",
+        "id": "64344ba70948c40027c4890e",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "6671dc98688a72001cc902a3",
+                "title": "Feijão com Feijoada(contem pedaços da feijoada)",
+                "description": "",
+                "max": -1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6671dc98688a72001cc90281",
+                "title": "Branco",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6671dc98688a72001cc90292",
+                "title": "Preto",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6671dc98688a72001cc902b4",
+                "title": "Sem Feijão",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Adicionais",
+        "id": "65ea2a0622b4af0027cbaeb0",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "66f2b26b944e19001c80865f",
+                "title": "Arroz",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "66f2b26b944e19001c808670",
+                "title": "Salada",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Monte sua Marmita",
+        "id": "64344bd10948c40027c48bde",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "677bb832e349b45194e121f7",
+                "title": "Arroz",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "677bb832e349b45194e12208",
+                "title": "Refogado de Repolho com Cenoura",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "677bb832e349b45194e12219",
+                "title": "Farofa de Ovos",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Carne",
+        "id": "64344bfc0948c40027c48d12",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "673b1da1ee0695001c58ddbf",
+                "title": "File de Frango Grelhado(acebolado)",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673b1da1ee0695001c58ddd0",
+                "title": "Almondegas ao Molho Vermelho",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673b1da1ee0695001c58dde1",
+                "title": "Figado Acebolado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673b1da1ee0695001c58ddf2",
+                "title": "Ovos Fritos",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Precisa de Talher ?",
+        "id": "659af3412c2dbd0027a79417",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "659af3412c2dbd0027a79418",
+                "title": "Talher",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Adicional Ovo",
+        "id": "643540ca934a32002877e5dd",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "643540ca934a32002877e5de",
+                "title": "Ovo",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Adicional Salada",
+        "id": "64354685934a320028780799",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "64354685934a32002878079a",
+                "title": "Salada",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/64354685934a32002878079ablob"
+            }
+        ]
+    },
+    {
+        "title": "Adicional Carne 1",
+        "id": "643547aab33d57002746dbc0",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67ee76410a963e3fcca4cbd1",
+                "title": "PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67ee76410a963e3fcca4cc4a",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67ee76410a963e3fcca4cc5e",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Adicional Banana",
+        "id": "647b512b9487de001c6cec16",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "647b512b9487de001c6cec17",
+                "title": "Banana",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Tamanhos",
+        "id": "661d10e2f64474001dfe5d3e",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "6650958e59197d0027e69ec4",
+                "title": "Pp",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6650958e59197d0027e69ed5",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6650958e59197d0027e69ee6",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "6650958e59197d0027e69ef7",
+                "title": "G",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Banana a Milanesa",
+        "id": "6651d9372f7e91001cfee9ed",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430b10f51b59bbd72dffbb",
+                "title": "Pp (6 UNIDADES)",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716840407631blob"
+            },
+            {
+                "id": "68430b10f51b59bbd72e0004",
+                "title": "P (10 UNIDADES)",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1716840408054blob"
+            }
+        ]
+    },
+    {
+        "title": "Proteina Vegetal",
+        "id": "6731052c3a09f3001ca50044",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "673106d65361e4001c90ec03",
+                "title": "Feijão Branco",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673106d65361e4001c90ec14",
+                "title": "Feijão Preto",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Proteina Animal",
+        "id": "673105af7ae13d001c417bd9",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "673105af7ae13d001c417bda",
+                "title": "Frango á Parmegiana",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417beb",
+                "title": "Frango Grelhado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417bfc",
+                "title": "Carne de Panela com Batata",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c0d",
+                "title": "Bife Acebolado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c1e",
+                "title": "Strogonoff de Frango",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c2f",
+                "title": "Lombo Suino",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c40",
+                "title": "Carne Moida à Bolonhesa",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c51",
+                "title": "Frango Desfiado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "673105af7ae13d001c417c62",
+                "title": "Peixe Grelhado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Carboidratos",
+        "id": "673106043a09f3001ca505fd",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67310bff5361e4001c91029d",
+                "title": "Arroz branco",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310bff5361e4001c9102ae",
+                "title": "Arroz integral",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310bff5361e4001c9102bf",
+                "title": "Macarrão espaguete (Na manteiga)",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310bff5361e4001c9102d0",
+                "title": "Macarrão integral ( Na manteiga )",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310bff5361e4001c9102e1",
+                "title": "Purê de Batata",
+                "description": "",
+                "max": 1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Vegetais",
+        "id": "673106653a09f3001ca507a1",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67310c2951e561001c2e78e6",
+                "title": "Refogado de repolho com cenoura",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2951e561001c2e78f7",
+                "title": "Batata doce assada",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2951e561001c2e7908",
+                "title": "Chuchu refogado",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2951e561001c2e7919",
+                "title": "Milho verde na manteiga",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2951e561001c2e792a",
+                "title": "Brócolis no vapor",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2a51e561001c2e793b",
+                "title": "Abobrinha refogada",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2a51e561001c2e794c",
+                "title": "Beterraba cozida",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67310c2a51e561001c2e795d",
+                "title": "Caponata de vegatais assados",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Feijão Branco",
+        "id": "67828f24f801a936f3fd5ffd",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430a82d7248142afb16948",
+                "title": "PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430a82d7248142afb169a8",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430a83d7248142afb169bc",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Tamanho Salada",
+        "id": "67e4484359c8412e531d4a37",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430b234e5286109046274b",
+                "title": "Salada PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430b234e52861090462792",
+                "title": "Salada P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Feijão Preto",
+        "id": "67e449c7cfabad9e1ebe1aa3",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430aa14e52861090461b62",
+                "title": "PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743033081900blob"
+            },
+            {
+                "id": "68430aa14e52861090461bc2",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743033081880blob"
+            },
+            {
+                "id": "68430aa14e52861090461bd6",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743033081902blob"
+            }
+        ]
+    },
+    {
+        "title": "Tamanho Arroz",
+        "id": "67e44a722fed441acaf74573",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430a71d71180d13c646eae",
+                "title": "PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430a71d71180d13c646ef5",
+                "title": "G",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "tamanho macarrao ",
+        "id": "67ec13b60a963e3fcc5a2acb",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "68430afb2a65eb5be3ffbd64",
+                "title": "Pp",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430afb2a65eb5be3ffbdc4",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "68430afb2a65eb5be3ffbdda",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Sobremesas",
+        "id": "67efdf3735fe9dcb03194a58",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67f3bf571e431acc2a0c288a",
+                "title": "Mousse de Limão 100ml",
+                "description": "",
+                "max": -1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": "https:\/\/client-assets.anota.ai\/produtos\/64340c9c6288400012a6d51c\/-1743773493375blob"
+            },
+            {
+                "id": "67f3bf571e431acc2a0c28b8",
+                "title": "Mousse de Maracuja",
+                "description": "",
+                "max": -1,
+                "out": true,
+                "external_id": "",
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    },
+    {
+        "title": "Tamanho caldo",
+        "id": "67f3bed14a3b02f0e2d12c2c",
+        "is_additional": true,
+        "non_active_weekdays": [],
+        "only_pdv": false,
+        "only_qrcode": false,
+        "only_delivery_take_local": false,
+        "itens": [
+            {
+                "id": "67f3bed14a3b02f0e2d12c2f",
+                "title": "PP",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67f3bed14a3b02f0e2d12c43",
+                "title": "P",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67f3bed14a3b02f0e2d12c57",
+                "title": "M",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            },
+            {
+                "id": "67f3bed14a3b02f0e2d12c6b",
+                "title": "G",
+                "description": "",
+                "max": -1,
+                "out": false,
+                "next_steps": [],
+                "link_image": ""
+            }
+        ]
+    }
+]

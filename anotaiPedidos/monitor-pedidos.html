@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Pedidos Anota AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        #pedidos {
+            margin-top: 20px;
+        }
+        .pedido {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .pedido-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .pedido-id {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .pedido-status {
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .status-created { background-color: #cce5ff; color: #004085; }
+        .status-confirmed { background-color: #d4edda; color: #155724; }
+        .status-preparing { background-color: #fff3cd; color: #856404; }
+        .status-ready { background-color: #f8d7da; color: #721c24; }
+        .status-delivered { background-color: #d1e7dd; color: #0f5132; }
+        .status-cancelled { background-color: #f8d7da; color: #721c24; }
+        
+        .pedido-items {
+            margin: 10px 0;
+        }
+        .pedido-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+        .pedido-cliente {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+        .pedido-total {
+            margin-top: 10px;
+            text-align: right;
+            font-weight: bold;
+        }
+        #status {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Monitor de Pedidos Anota AI</h1>
+    <div id="status">Conectado</div>
+    <div id="pedidos"></div>
+
+    <script>
+        // Função para formatar o status
+        function formatarStatus(status) {
+            const statusMap = {
+                'created': 'Novo Pedido',
+                'confirmed': 'Confirmado',
+                'preparing': 'Em Preparação',
+                'ready': 'Pronto',
+                'delivered': 'Entregue',
+                'cancelled': 'Cancelado'
+            };
+            return statusMap[status] || status;
+        }
+
+        // Função para formatar o valor
+        function formatarValor(valor) {
+            return new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(valor);
+        }
+
+        // Função para criar o HTML do pedido
+        function criarPedidoHTML(pedido) {
+            return `
+                <div class="pedido" id="pedido-${pedido.id}">
+                    <div class="pedido-header">
+                        <span class="pedido-id">Pedido #${pedido.orderNumber || pedido.id}</span>
+                        <span class="pedido-status status-${pedido.status}">${formatarStatus(pedido.status)}</span>
+                    </div>
+                    <div class="pedido-items">
+                        ${pedido.items.map(item => `
+                            <div class="pedido-item">
+                                <span>${item.quantity}x ${item.name}</span>
+                                <span>${formatarValor(item.price * item.quantity)}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="pedido-cliente">
+                        <strong>Cliente:</strong> ${pedido.customer.name}<br>
+                        <strong>Telefone:</strong> ${pedido.customer.phone}
+                    </div>
+                    <div class="pedido-total">
+                        Total: ${formatarValor(pedido.total)}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Função para verificar novos pedidos
+        function verificarPedidos() {
+            fetch('ler-logs.php')
+                .then(response => response.json())
+                .then(data => {
+                    // Atualiza a lista de pedidos
+                    const pedidosDiv = document.getElementById('pedidos');
+                    pedidosDiv.innerHTML = data.pedidos.map(pedido => criarPedidoHTML(pedido)).join('');
+                    
+                    // Mostra status de conexão
+                    document.getElementById('status').style.display = 'block';
+                    document.getElementById('status').style.backgroundColor = '#28a745';
+                    document.getElementById('status').textContent = 'Conectado';
+                })
+                .catch(error => {
+                    console.error('Erro ao verificar pedidos:', error);
+                    document.getElementById('status').style.display = 'block';
+                    document.getElementById('status').style.backgroundColor = '#dc3545';
+                    document.getElementById('status').textContent = 'Erro de conexão';
+                });
+        }
+
+        // Verifica pedidos a cada 5 segundos
+        setInterval(verificarPedidos, 5000);
+        
+        // Verifica pedidos imediatamente ao carregar a página
+        verificarPedidos();
+    </script>
+</body>
+</html> 

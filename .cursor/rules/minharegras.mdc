@@ -1,0 +1,132 @@
+---
+description: Regras e documentação para o projeto Marmitaria Farias
+globs: ["**/*.php", "**/*.js", "**/*.css", "**/*.html"]
+alwaysApply: false
+---
+
+# Marmitaria Farias - Documentação do Projeto
+
+## Estrutura do Projeto
+
+O projeto está organizado nas seguintes pastas principais:
+
+- `/admin`: Painel administrativo do sistema
+  - `/actions`: Endpoints de API para operações do sistema
+  - `/controllers`: Controladores para lógica de negócio
+  - `/views`: Interfaces de usuário do painel admin
+  - `/config`: Configurações do sistema, incluindo conexão com banco de dados
+  - `/assets`: Recursos estáticos do painel admin
+  - `/includes`: Funções e componentes reutilizáveis
+  - `/uploads`: Armazenamento de arquivos enviados
+  - `/logs`: Registros de atividades e erros
+  - `/cache`: Arquivos de cache do sistema
+
+- `/AnotaaiExtractor`: Extensão Chrome para extrair pedidos do Anotaai
+  - `content.js`: Script principal que extrai dados dos pedidos
+  - `popup.js`: Interface da extensão
+  - `background.js`: Processos em segundo plano da extensão
+
+- `/assets`: Recursos estáticos do site principal
+  - `/css`: Estilos do site
+  - `/img`: Imagens do site
+
+## Convenções de Código
+
+### PHP
+- Arquivos de ação (`/admin/actions/`) devem começar com verificação de sessão
+- Todas as consultas ao banco devem usar prepared statements
+- Respostas de API devem ser em formato JSON com status e mensagem
+- Funções de formatação devem ser prefixadas com "formatar" (ex: `formatarTelefone()`)
+- Funções de busca devem ser prefixadas com "buscar" (ex: `buscarClientePorTelefone()`)
+
+### JavaScript
+- Funções de manipulação DOM devem ser prefixadas com "mostrar" ou "atualizar"
+- Funções assíncronas devem usar async/await em vez de callbacks
+- Logs de depuração devem usar a função `mostrarLogs()`
+
+### CSS
+- Usar variáveis CSS para cores e tamanhos principais
+- Seguir abordagem mobile-first para responsividade
+
+## Fluxos Principais
+
+### Carrinho de Compras
+1. Adicionar produto ao carrinho (`adiciona_produto_carrinho.php`)
+2. Selecionar cliente (`buscar_cliente.php`)
+3. Escolher endereço ou retirada (`salva_endereco.php`)
+4. Selecionar forma de pagamento (`salva_pagamento.php`)
+5. Finalizar pedido (`salvar_pedido.php`)
+
+### Extração de Pedidos (AnotaaiExtractor)
+1. Iniciar extração automática (`processarPedidosAutomaticamente()`)
+2. Extrair dados do pedido (`extrairDadosPedido()`)
+3. Processar acompanhamentos (`processarAcompanhamento()`)
+4. Salvar pedidos extraídos (`salvarPedidosJSON()`)
+
+## Banco de Dados (u195662740_pedidos_db.sql)
+
+### Tabelas Principais e Estrutura
+
+#### Pedidos e Itens
+- `pedidos`: Registro principal dos pedidos
+  - Campos principais: id_pedido, num_pedido, data_pedido, hora_pedido, status_pedido (0=Em análise, 1=Em produção, 2=Pronto para entrega, 3=Finalizado, 4=Cancelado)
+  - Relacionamentos: clientes (fk_cliente_id), pagamento (fk_pagamento_id), cliente_entrega (fk_entrega_id)
+  
+- `pedido_itens`: Itens individuais de cada pedido
+  - Campos principais: id_pedido_item, quantidade, preco_unitario, observacao
+  - Relacionamentos: pedidos (fk_pedido_id), produto (fk_produto_id)
+
+- `pedido_item_acomp`: Acompanhamentos escolhidos para cada item
+  - Relacionamentos: pedido_itens (fk_pedido_item_id), acomp (fk_acomp_id), sub_acomp (fk_subacomp_id)
+
+#### Produtos e Categorias
+- `produto`: Catálogo de produtos disponíveis
+  - Campos principais: id_produto, nome_produto, preco_produto, activated
+  - Relacionamentos: categoria (fk_categoria_id)
+
+- `categoria`: Categorias dos produtos
+  - Exemplos: Marmitas, Feijoada, Bebidas, Adicional Carne, etc.
+
+#### Acompanhamentos
+- `acomp`: Tipos de acompanhamentos (ex: Feijão, Monte sua Marmita, Carne)
+- `sub_acomp`: Opções específicas de cada acompanhamento
+  - Campos principais: nome_subacomp, preco_subacomp, activated
+  - Relacionamentos: acomp (fk_acomp_id)
+  
+- `produto_acomp`: Relação entre produtos e acompanhamentos
+  - Relacionamentos: produto (fk_produto_id), acomp (fk_acomp_id)
+
+- `produto_acomp_regras`: Regras para escolha de acompanhamentos
+  - Relacionamentos: acomp (fk_acomp_id)
+  - Regras: is_required, min_escolhas, max_escolhas, permite_repetir
+
+#### Clientes e Entregas
+- `clientes`: Cadastro de clientes
+  - Campos principais: nome_cliente, telefone_cliente, tipo_cliente (0=pessoa_fisica, 1=funcionario)
+  - Relacionamentos: empresas (fk_empresa_id)
+
+- `cliente_entrega`: Endereços de entrega
+  - Relacionamentos: clientes (fk_Cliente_id_cliente), cliente_bairro (fk_Bairro_id_bairro)
+
+- `cliente_bairro`: Bairros e taxas de entrega
+  - Campos principais: nome_bairro, valor_taxa
+
+#### Pagamento e Financeiro
+- `pagamento`: Métodos de pagamento disponíveis
+  - Exemplos: Dinheiro, Voucher, Débito, Crédito, Pix, etc.
+
+- `despesas`: Registro de despesas
+  - Campos principais: descricao, valor, data_despesa, fornecedor
+  - Relacionamento: categorias_despesa (categoria_id)
+
+#### Ficha Técnica
+- `ficha_tecnica`: Detalhes técnicos dos produtos
+  - Relacionamentos: produto (fk_produto_id)
+
+- `ficha_tecnica_ingredientes`: Ingredientes e quantidades
+  - Relacionamentos: ficha_tecnica (fk_ficha_id), sub_acomp (fk_subacomp_id)
+
+- `subacomp_ingredientes`: Ingredientes dos subacompanhamentos
+  - Relacionamentos: sub_acomp (fk_subacomp_id)
+
+[... resto das seções existentes ...]

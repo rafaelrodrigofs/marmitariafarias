@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Anota AI - Marmitaria Farias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .order-card {
+            transition: all 0.3s ease;
+        }
+        .order-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .status-badge {
+            font-size: 0.9em;
+            padding: 5px 10px;
+        }
+        .refresh-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marmitaria Farias - Pedidos Anota AI</a>
+            <div class="d-flex">
+                <span class="navbar-text me-3" id="lastUpdate"></span>
+                <button class="btn btn-outline-light btn-sm" onclick="fetchOrders()">
+                    <i class="fas fa-sync-alt"></i> Atualizar
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col">
+                                <h5>Total de Pedidos</h5>
+                                <h2 id="totalOrders">0</h2>
+                            </div>
+                            <div class="col">
+                                <h5>Em Análise</h5>
+                                <h2 id="analysisOrders">0</h2>
+                            </div>
+                            <div class="col">
+                                <h5>Em Produção</h5>
+                                <h2 id="productionOrders">0</h2>
+                            </div>
+                            <div class="col">
+                                <h5>Prontos</h5>
+                                <h2 id="readyOrders">0</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col text-center">
+                                <button class="btn btn-warning" onclick="atualizarPedidosAntigos()" id="btnAtualizar">
+                                    <i class="fas fa-sync"></i> Atualizar Pedidos Antigos
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4>Lista de Pedidos</h4>
+                    <div class="btn-group">
+                        <button class="btn btn-outline-primary active" data-filter="all">Todos</button>
+                        <button class="btn btn-outline-primary" data-filter="em_analise">Em Análise</button>
+                        <button class="btn btn-outline-primary" data-filter="em_producao">Em Produção</button>
+                        <button class="btn btn-outline-primary" data-filter="pronto">Prontos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ordersList" class="row g-4">
+            <!-- Orders will be loaded here -->
+        </div>
+    </div>
+
+    <button class="btn btn-primary btn-lg rounded-circle refresh-button" onclick="fetchOrders()">
+        <i class="fas fa-sync-alt"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let currentFilter = 'all';
+        let orders = [];
+
+        function getStatusColor(status) {
+            const colors = {
+                'em_analise': 'warning',
+                'em_producao': 'info',
+                'pronto': 'success',
+                'finalizado': 'secondary',
+                'cancelado': 'danger',
+                'negado': 'danger',
+                'solicitacao_cancelamento': 'warning'
+            };
+            return colors[status] || 'primary';
+        }
+
+        function getStatusText(status) {
+            const texts = {
+                'em_analise': 'Em Análise',
+                'em_producao': 'Em Produção',
+                'pronto': 'Pronto',
+                'finalizado': 'Finalizado',
+                'cancelado': 'Cancelado',
+                'negado': 'Negado',
+                'solicitacao_cancelamento': 'Solicitação de Cancelamento'
+            };
+            return texts[status] || status;
+        }
+
+        function formatCurrency(value) {
+            return new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(value);
+        }
+
+        function updateOrdersCount() {
+            document.getElementById('totalOrders').textContent = orders.length;
+            document.getElementById('analysisOrders').textContent = orders.filter(o => o.status === 'em_analise').length;
+            document.getElementById('productionOrders').textContent = orders.filter(o => o.status === 'em_producao').length;
+            document.getElementById('readyOrders').textContent = orders.filter(o => o.status === 'pronto').length;
+        }
+
+        function renderOrders() {
+            const ordersList = document.getElementById('ordersList');
+            ordersList.innerHTML = '';
+
+            const filteredOrders = currentFilter === 'all' 
+                ? orders 
+                : orders.filter(order => order.status === currentFilter);
+
+            filteredOrders.forEach(order => {
+                const card = document.createElement('div');
+                card.className = 'col-md-6 col-lg-4';
+                card.innerHTML = `
+                    <div class="order-card card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Pedido #${order.id}</h5>
+                            <span class="badge bg-${getStatusColor(order.status)} status-badge">
+                                ${getStatusText(order.status)}
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-2">
+                                <i class="fas fa-user"></i> 
+                                ${order.customer.name}
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-phone"></i> 
+                                ${order.customer.phone || 'Não informado'}
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-shopping-cart"></i> 
+                                ${order.items.length} item(s)
+                            </p>
+                            <p class="mb-0">
+                                <i class="fas fa-money-bill-wave"></i> 
+                                Total: ${formatCurrency(order.total)}
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-sm btn-outline-primary w-100" onclick="viewOrderDetails('${order.id}')">
+                                Ver Detalhes
+                            </button>
+                        </div>
+                    </div>
+                `;
+                ordersList.appendChild(card);
+            });
+        }
+
+        function viewOrderDetails(orderId) {
+            // Implementar visualização detalhada do pedido
+            console.log('Ver detalhes do pedido:', orderId);
+        }
+
+        async function fetchOrders() {
+            try {
+                document.body.classList.add('loading');
+                const response = await fetch('get_orders.php');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    orders = data.orders;
+                    updateOrdersCount();
+                    renderOrders();
+                    document.getElementById('lastUpdate').textContent = 
+                        `Última atualização: ${new Date().toLocaleTimeString()}`;
+                } else {
+                    throw new Error(data.message || 'Erro ao carregar pedidos');
+                }
+            } catch (error) {
+                console.error('Erro:', error);
+                alert('Erro ao carregar pedidos. Por favor, tente novamente.');
+            } finally {
+                document.body.classList.remove('loading');
+            }
+        }
+
+        async function atualizarPedidosAntigos() {
+            try {
+                const btn = document.getElementById('btnAtualizar');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Atualizando...';
+                btn.disabled = true;
+
+                const response = await fetch('atualizar_pedidos.php');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    alert(data.message);
+                    // Recarrega a lista de pedidos
+                    await fetchOrders();
+                } else {
+                    alert('Erro ao atualizar pedidos: ' + data.message);
+                }
+            } catch (error) {
+                console.error('Erro:', error);
+                alert('Erro ao atualizar pedidos. Por favor, tente novamente.');
+            } finally {
+                const btn = document.getElementById('btnAtualizar');
+                btn.innerHTML = '<i class="fas fa-sync"></i> Atualizar Pedidos Antigos';
+                btn.disabled = false;
+            }
+        }
+
+        // Set up filter buttons
+        document.querySelectorAll('[data-filter]').forEach(button => {
+            button.addEventListener('click', (e) => {
+                document.querySelector('[data-filter].active').classList.remove('active');
+                e.target.classList.add('active');
+                currentFilter = e.target.dataset.filter;
+                renderOrders();
+            });
+        });
+
+        // Initial load
+        fetchOrders();
+
+        // Auto refresh every 30 seconds
+        setInterval(fetchOrders, 30000);
+    </script>
+</body>
+</html>

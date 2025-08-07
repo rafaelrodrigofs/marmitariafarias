@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Webhook Anota AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        #response {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            white-space: pre-wrap;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .status-buttons {
+            margin: 20px 0;
+        }
+        #pedidoInfo {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste Webhook Anota AI</h1>
+    
+    <div id="pedidoInfo">
+        <h3>Simulando Pedido Real do Anota AI</h3>
+        <p>Este teste simula exatamente o formato que o Anota AI envia quando um pedido é criado.</p>
+    </div>
+
+    <button onclick="simularPedidoReal()">Simular Pedido Real do Anota AI</button>
+    <div id="response"></div>
+
+    <script>
+        function simularPedidoReal() {
+            const token = 'eyJhbGciOiJIUzI1NiJ9.eyJpZHBhcnRuZXIiOiI2N2MwNGFmYjU5NWY2MzAwMTI4ODUwNDUiLCJpZHBhZ2UiOiI2ODAwZmRmMTNhNDg3YjAwMTlhNjA3MWMifQ.sKKgw5BCoPffEZI4YA0Pp1D-oJF7w8zaAklQHTQtUFQ';
+            
+            // Simula um pedido real do Anota AI
+            const dados = {
+                "id": "PED" + Math.floor(Math.random() * 1000000),
+                "status": "created",
+                "orderNumber": "12345",
+                "createdAt": new Date().toISOString(),
+                "items": [
+                    {
+                        "id": "ITEM1",
+                        "name": "X-Burger",
+                        "quantity": 2,
+                        "price": 25.90,
+                        "observations": "Sem cebola",
+                        "category": "Lanches"
+                    },
+                    {
+                        "id": "ITEM2",
+                        "name": "Batata Frita",
+                        "quantity": 1,
+                        "price": 15.90,
+                        "observations": "",
+                        "category": "Acompanhamentos"
+                    }
+                ],
+                "customer": {
+                    "name": "Cliente Teste",
+                    "phone": "11999999999",
+                    "email": "cliente@teste.com",
+                    "address": {
+                        "street": "Rua Teste",
+                        "number": "123",
+                        "complement": "Apto 45",
+                        "neighborhood": "Centro",
+                        "city": "São Paulo",
+                        "state": "SP",
+                        "zipCode": "01234-567"
+                    }
+                },
+                "payment": {
+                    "method": "credit_card",
+                    "status": "pending",
+                    "total": 67.70
+                },
+                "delivery": {
+                    "type": "delivery",
+                    "estimatedTime": "30-45",
+                    "fee": 5.00
+                },
+                "total": 72.70,
+                "observations": "Entregar no portão"
+            };
+
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'anotaiWebhook.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.setRequestHeader('Authorization', `Bearer ${token}`);
+
+            xhr.onload = function() {
+                const response = document.getElementById('response');
+                try {
+                    const jsonResponse = JSON.parse(xhr.responseText);
+                    response.textContent = JSON.stringify(jsonResponse, null, 2);
+                } catch (e) {
+                    response.textContent = 'Erro ao processar resposta: ' + xhr.responseText;
+                }
+            };
+
+            xhr.onerror = function() {
+                document.getElementById('response').textContent = 'Erro na requisição';
+            };
+
+            xhr.send(JSON.stringify(dados));
+        }
+    </script>
+</body>
+</html> 

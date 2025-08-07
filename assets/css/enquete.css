@@ -1,0 +1,745 @@
+
+        :root {
+            --primary-color: #FF6B35;
+            --secondary-color: #2E4057;
+            --accent-color: #FFD166;
+            --light-color: #F7F7F7;
+            --dark-color: #333333;
+            --success-color: #4CAF50;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            line-height: 1.6;
+            /* Remover estas propriedades que centralizam verticalmente */
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: calc(100vh - 56px);
+            padding-top: 56px; */
+            
+            /* Substituir por um estilo que permite scroll normal */
+            min-height: 100vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        
+        .card {
+            /* background-color: white; */
+            border-radius: 0 0 10px 10px;
+            /* padding: 30px; */
+            /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group h3 {
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+        }
+        
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .option-item {
+            position: relative;
+        }
+        
+        .option-item input[type="radio"] {
+            opacity: 0;
+            position: absolute;
+        }
+        
+        .option-item label {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            border: 1px solid #eaeaea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .option-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background-color: #f1f1f1;
+            color: #333;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .option-item input[type="radio"]:checked + label {
+            background-color: #FFF8F4;
+            border-color: var(--primary-color);
+            box-shadow: 0 4px 8px rgba(255, 107, 53, 0.2);
+        }
+        
+        .option-item input[type="radio"]:checked + label .option-circle {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .option-item label:hover {
+            background-color: #FFF8F4;
+            transform: translateY(-2px);
+        }
+        
+        .text-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .text-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .submit-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            width: 100%;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        
+        .submit-btn:hover {
+            background-color: #E55A24;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cupom-container {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cupom-box {
+            background: linear-gradient(135deg, var(--accent-color) 0%, #FFA41B 100%);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cupom-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -10px;
+            width: 20px;
+            height: 100%;
+            background-image: radial-gradient(circle at 10px 10px, transparent 12px, white 13px);
+            background-size: 20px 20px;
+            background-position: 0 5px;
+        }
+        
+        .cupom-box::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -10px;
+            width: 20px;
+            height: 100%;
+            background-image: radial-gradient(circle at 10px 10px, transparent 12px, white 13px);
+            background-size: 20px 20px;
+            background-position: 0 5px;
+        }
+        
+        .cupom-code {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: var(--secondary-color);
+            margin: 10px 0;
+        }
+        
+        .cupom-info {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        
+        .success-icon {
+            font-size: 4rem;
+            color: var(--success-color);
+            margin-bottom: 20px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background-color: #1D2D3E;
+            transform: translateY(-2px);
+        }
+        
+        .required-field {
+            color: var(--primary-color);
+        }
+        
+        .input-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .input-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .options {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+        
+        /* Adicionando estilos para a tela de telefone */
+        .telefone-container {
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .telefone-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        
+        .telefone-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2rem;
+            text-align: center;
+            letter-spacing: 1px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        
+        .telefone-input:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+        
+        .cliente-info {
+            background-color: white;
+            padding: 18px;
+            border-radius: 12px;
+            margin: 25px 0;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            border-top: 4px solid var(--primary-color);
+            position: relative;
+        }
+        
+        .cliente-info::before {
+            content: "Suas informações";
+            position: absolute;
+            top: -12px;
+            left: 15px;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .cliente-info p {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .cliente-info i {
+            color: var(--primary-color);
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        
+        .cliente-info strong {
+            color: var(--secondary-color);
+            margin-right: 10px;
+            font-weight: 600;
+            min-width: 80px;
+        }
+        
+        .cliente-info span {
+            color: #555;
+            font-weight: 500;
+        }
+        
+        .error-message {
+            color: #e74c3c;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .telefone-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .whatsapp-btn i {
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        
+        /* Estilo para o container da logo */
+        .logo-container {
+            text-align: center;
+            margin: 20px auto 10px;
+        }
+        
+        /* Estilo para a imagem da logo */
+        .logo-image {
+            max-width: 100px;
+            height: auto;
+            display: inline-block;
+        }
+        
+        /* Novo estilo para o card de lembrete */
+        .lembrete-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 25px;
+        }
+        
+        .lembrete-header {
+            background: linear-gradient(to right, #4cd27d, rgb(255 55 0));
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        
+        .lembrete-content {
+            padding: 20px;
+        }
+        
+        /* Estilos das opções como mostrado na imagem */
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .option-item {
+            position: relative;
+        }
+        
+        .option-item input[type="radio"] {
+            opacity: 0;
+            position: absolute;
+        }
+        
+        .option-item label {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 12px 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            border: 1px solid #eaeaea;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .option-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25px;
+            height: 25px;
+            background-color: #f5f5f5;
+            color: #4cd27d;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+            border: none;
+            flex-shrink: 0;
+            z-index: 3;
+        }
+        
+        .option-item input[type="radio"]:checked + label .option-circle {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .option-item label:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Estilos para cards desabilitados */
+        .lembrete-card.disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        
+        .lembrete-card.disabled .lembrete-header {
+            background: linear-gradient(to right, #a8a8a8, #7a7a7a);
+            color: #e6e6e6;
+        }
+        
+        .lembrete-card.disabled .lembrete-content {
+            position: relative;
+        }
+        
+        .lembrete-card.disabled .lembrete-content::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            z-index: 1;
+        }
+        
+        /* Estilo para o botão desabilitado */
+        .submit-btn:disabled {
+            background-color: #a8a8a8;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        /* Indicador de progresso */
+        .progress-container {
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .progress-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 10px 0;
+        }
+        
+        .progress-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+        
+        .progress-dot.active {
+            background-color: var(--primary-color);
+        }
+        
+        /* Estilos para as barras de porcentagem */
+        .resultado-votacao {
+            display: none;
+            margin-top: 10px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .barra-resultado {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            background: linear-gradient(to right, #4cd27d, #97ff9c);
+            width: 0; /* Será definido via JavaScript */
+            transition: width 1s ease-in-out;
+            z-index: 1;
+            opacity: 0.7;
+        }
+        
+        .porcentagem-resultado {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #000;
+            font-weight: bold;
+            font-size: 0.9rem;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .option-item.resultado-exibido .option-text {
+            opacity: 0.9;
+            z-index: 3;
+        }
+        
+        .option-item.resultado-exibido .porcentagem-resultado {
+            opacity: 1;
+        }
+        
+        /* Estilo para opção selecionada */
+        .option-item.selecionado label {
+            border-color: #FF6B35;
+        }
+        
+        .option-item.selecionado .option-circle {
+            background-color: #FF6B35;
+            color: white;
+        }
+        
+        /* Adicione esta classe para bloquear o scroll */
+        body.scroll-blocked {
+            overflow: hidden;
+            pointer-events: none;
+        }
+        
+        /* Mantenha o card atual com eventos ativos mesmo quando o scroll estiver bloqueado */
+        body.scroll-blocked .lembrete-card.current-card {
+            pointer-events: none;
+        }
+        
+        /* Mantenha os resultados visíveis durante o bloqueio */
+        body.scroll-blocked .resultado-exibido {
+            pointer-events: none;
+        }
+        
+        body.modal-open {
+            overflow: hidden;
+        }
+        
+        #confirmacao-modal {
+            overflow-y: auto;
+        }
+        
+        #confirmacao-modal > div {
+            margin: 30px auto;
+        }
+        
+        .cupom-box {
+            background: linear-gradient(135deg, var(--accent-color) 0%, #FFA41B 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            position: relative;
+                    overflow: hidden;
+                    box-shadow: 0 8px 20px rgba(255, 164, 27, 0.3);
+                }
+                
+                .cupom-box::before,
+                .cupom-box::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    width: 20px;
+                    height: 100%;
+                    background-image: radial-gradient(circle at 10px 10px, transparent 12px, white 13px);
+                    background-size: 20px 20px;
+                    background-position: 0 5px;
+                }
+                
+                .cupom-box::before {
+                    left: -10px;
+                }
+                
+                .cupom-box::after {
+                    right: -10px;
+                }
+                
+                .cupom-code {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                    letter-spacing: 3px;
+                    color: var(--secondary-color);
+                    margin: 15px 0;
+                    text-align: center;
+                }
+                
+                .cupom-info {
+                    font-size: 1.2rem;
+                    margin-bottom: 5px;
+                    text-align: center;
+                    font-weight: 600;
+                }
+                
+                /* CORRIGIDO: Seta acima do botão */
+                .seta-animada {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: 100px; /* Posicionado acima do botão */
+                    font-size: 1.5rem;
+                    color: var(--secondary-color);
+                    animation: bounce 1.5s infinite;
+                }
+                
+                @keyframes bounce {
+                    0%, 20%, 50%, 80%, 100% {
+                        transform: translateY(0) translateX(-50%);
+                    }
+                    40% {
+                        transform: translateY(-15px) translateX(-50%);
+                    }
+                    60% {
+                        transform: translateY(-7px) translateX(-50%);
+                    }
+                }
+                
+                /* CORRIGIDO: Botão posicionado mais abaixo */
+                .cupom-btn {
+                    position: absolute;
+                    bottom: 20px; /* Mais próximo do fundo */
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: var(--primary-color);
+                    color: white;
+                    border: none;
+                    padding: 12px 20px;
+                    font-size: 1rem;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    text-decoration: none;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 8px;
+                    font-weight: 600;
+                    box-shadow: 0 4px 10px rgba(255, 107, 53, 0.4);
+                    transition: all 0.3s ease;
+                    width: 80%;
+                    max-width: 280px;
+                }
+                
+                .cupom-btn:hover {
+                    background-color: #E55A24;
+                    transform: translateX(-50%) translateY(-2px);
+                    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.5);
+                }
+                
+                .cupom-btn i {
+                    font-size: 1.1rem;
+                }

@@ -1,0 +1,27 @@
+{
+  "name": "Marmitaria Farias",
+  "short_name": "Marmitaria Farias",
+  "description": "Sistema de gestão Marmitaria Farias",
+  "start_url": "/admin/views/login.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/admin/",
+  "icons": [
+    {
+      "src": "/admin/assets/img/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/admin/assets/img/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "permissions": ["notifications", "vibrate"],
+  "gcm_sender_id": "646788288611"
+} 

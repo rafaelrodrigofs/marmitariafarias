@@ -1,0 +1,557 @@
+:root {
+    --color-primary: #6366f1;
+    --color-success: #22c55e;
+    --color-pending: #f97316;
+    --color-danger: #ef4444;
+    --color-text: #334155;
+    --color-text-light: #64748b;
+    --color-border: #e2e8f0;
+    --color-background: #ffffff;
+    --color-background-hover: #f9f9f9;
+}
+
+/* Layout base para desktop */
+.pedido, .tabela-header {
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1.0fr 1.2fr 2fr 1fr 0.8fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tabela-header {
+    background-color: var(--color-background-hover);
+    font-weight: 500;
+    color: var(--color-text-light);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Estilos para os itens da linha */
+.coluna-numero {
+    font-weight: 500;
+}
+
+.coluna-hora {
+    color: var(--color-text-light);
+}
+
+.coluna-cliente {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-cliente .nome {
+    font-weight: 500;
+}
+
+.coluna-cliente .telefone {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+}
+
+.coluna-endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.coluna-pagamento {
+    position: relative;
+}
+
+.pagamento-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 1em;
+}
+
+.pagamento-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.coluna-status {
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-taxa, .coluna-valor {
+    text-align: right;
+    padding-right: 15px;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.coluna-acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Status badges */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+}
+
+.status-badge.pendente {
+    background-color: #ffe4e4;
+    color: #FF4444;
+    border: 1px solid #FFE5E5;
+}
+
+.status-badge.pago {
+    background-color: #c9ffd7;
+    color: #48BB78;
+    border: 1px solid #E6FFE6;
+}
+
+.status-badge:hover {
+    filter: brightness(0.95);
+}
+
+/* Botões de ação */
+.btn-acao {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--color-text-light);
+}
+
+.btn-acao:hover {
+    background-color: var(--color-background-hover);
+}
+
+.btn-acao.visualizar:hover { color: var(--color-primary); }
+.btn-acao.editar:hover { color: var(--color-success); }
+.btn-acao.excluir:hover { color: var(--color-danger); }
+
+/* Grupo de pedidos */
+.grupo-pedidos {
+    /* margin-bottom: 16px; */
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grupo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.grupo-header:hover {
+    background: linear-gradient(to right, var(--color-background-hover), var(--color-background));
+}
+
+.grupo-header .data-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grupo-header .data-section i {
+    color: var(--color-success);
+    font-size: 1.1rem;
+}
+
+.grupo-header .data-section .data {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.grupo-header .info-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.grupo-header .stat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.grupo-header .stat-value {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+    white-space: nowrap;
+}
+
+.grupo-header .valor-total {
+    color: var(--color-success);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Media Query para Mobile */
+@media (max-width: 768px) {
+    .coluna-valor {
+        font-weight: 700;
+        text-align: left;
+        font-size: 1.0rem;
+        
+    }
+    .pedido {
+        grid-template-columns: 1fr;
+        padding: 12px;
+    }
+
+    .pedido-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    .coluna-cliente {
+        margin-bottom: 8px;
+    }
+
+    .coluna-endereco,
+    .coluna-pagamento {
+        font-size: 0.875rem;
+        margin-bottom: 4px;
+    }
+
+    .pedido-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .coluna-acoes {
+        margin-top: 8px;
+        justify-content: flex-end;
+    }
+
+    .tabela-header {
+        display: none;
+    }
+
+    .grupo-header {
+        grid-template-columns: 1fr auto;
+        gap: 8px;
+    }
+
+    .grupo-header .total-pedidos {
+        grid-column: 1 / -1;
+    }
+
+
+    .grupo-header .data-section {
+        gap: 8px;
+    }
+
+    .grupo-header .info-section {
+        gap: 12px;
+    }
+
+    .grupo-header .stat-value {
+        font-size: 0.9rem;
+    }
+}
+
+/* Paginação mais suave */
+.paginacao {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    align-items: center;
+}
+
+.paginacao button {
+    padding: 8px 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-background);
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.paginacao button:hover {
+    background: var(--color-background-hover);
+    color: var(--color-primary);
+}
+
+.btn-excluir-todos {
+    background-color: var(--danger);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-excluir-todos:hover {
+    background-color: #c82333;
+}
+
+.pedido-row {
+    cursor: pointer;
+}
+
+.pedido-row.selected {
+    background-color: rgba(99, 102, 241, 0.2);
+}
+
+.actions-bar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    /* margin: 15px 0; */
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    display: none;
+}
+
+.btn-secundario {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secundario:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.grupo-pedidos {
+    margin-bottom: 4px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+}
+
+.grupo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, var(--color-background), var(--color-background-hover));
+    border-bottom: 1px solid var(--color-border);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.grupo-header:hover {
+    background-color: var(--color-background-hover);
+}
+
+.btn-expandir {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    color: var(--color-text);
+}
+
+.btn-expandir i {
+    transition: transform 0.2s;
+}
+
+.grupo-header.expanded .btn-expandir i {
+    transform: rotate(180deg);
+}
+
+.pedidos-do-dia {
+    border-top: 1px solid var(--color-border);
+}
+
+/* Efeito zebrado para os pedidos */
+.pedido:nth-child(even) {
+    background-color: var(--color-background);
+}
+
+.pedido:nth-child(odd) {
+    background-color: var(--color-background-hover);
+}
+
+/* Ajuste do hover para manter o contraste */
+.pedido:hover {
+    background-color: rgba(99, 102, 241, 0.05);
+}
+
+/* Ajuste para quando o pedido estiver selecionado */
+.pedido.selected {
+    background-color: rgba(99, 102, 241, 0.1);
+}
+
+/* Ajuste para manter o contraste no hover quando selecionado */
+.pedido.selected:hover {
+    background-color: rgba(99, 102, 241, 0.25) !important;
+}
+
+.filtros {
+    margin-bottom: 16px;
+}
+
+.btn-group {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 8px;
+    flex-direction: row;
+}
+
+.btn-group .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-group .btn.active {
+    background-color: var(--color-pending);
+    color: white;
+}
+
+.btn-group .btn:not(.active) {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.btn-group .btn:hover:not(.active) {
+    background-color: var(--color-background-hover);
+}
+
+.btn-diferenca {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-diferenca:hover {
+    background-color: #FF8C00;
+    transform: scale(1.1);
+}
+
+.coluna-valor-banco {
+    text-align: right;
+    padding-right: 15px;
+    color: var(--color-text);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .coluna-valor-banco {
+        text-align: left;
+        justify-content: flex-start;
+    }
+}
+
+.filtro-pagamento {
+    margin: 0 10px;
+}
+
+.filtro-pagamento-select {
+    padding: 6px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: white;
+    color: var(--color-text);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filtro-pagamento-select:hover {
+    border-color: var(--color-primary);
+}
+
+.filtro-pagamento-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+@media (max-width: 768px) {
+    .filtro-pagamento {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .filtro-pagamento-select {
+        width: 100%;
+    }
+}
+
+.relatorio-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 5px 20px;
+    border: 2px solid #ffe5d3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

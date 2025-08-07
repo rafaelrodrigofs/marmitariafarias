@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Anotaai Extractor",
+    "description": "Extrai pedidos do Anotaai automaticamente",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "notifications",
+      "tabs"
+    ],
+    "host_permissions": [
+      "*://admin.anota.ai/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://admin.anota.ai/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }

@@ -1,0 +1,2776 @@
+2025-06-09 10:26:34 - Dados recebidos:
+[{"_id":"6846dde0dafaa200116b97fa","additionalFees":[],"check":1,"createdAt":"2025-06-09T13:13:04.476Z","customer":{"id":"645cf0b5d3a01500122317c1","name":"Ana Carolina Nunes","phone":"41996245244","taxPayerIdentificationNumber":null},"deliveryFee":0,"discounts":[],"from":"menu-share-adm","id":"6846dde0dafaa200116b97fa","items":[{"_id":"6846dec46bc888a9d0bb8e2a","id":0,"name":"Caldo de Aipim com Calabresa(acompanha arroz)","quantity":1,"externalId":"","backoffice_id":"","internalId":"67f3be53a7fd2250ea650e33","price":0,"total":21,"subItems":[{"_id":"6846dec46bc888519bbb8e2b","name":"G","quantity":1,"internalId":"67f3bed14a3b02f0e2d12c6b","backoffice_id":"","price":21,"total":21,"externalCode":"extra","id":1,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"pix","code":"pix","value":"21","cardSelected":"","externalId":"","changeFor":0,"prepaid":true}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T14:15:00.000Z","salesChannel":"anotaai","schedule_order":{"date":"2025-06-09T14:15:00.000Z","start":"11:30","end":"12:00","timezone":"America/Sao_Paulo","accept_mode":"auto"},"shortReference":7,"time_max":"2025-06-09T13:53:04.476Z","total":21,"type":"TAKE","updatedAt":"2025-06-09T13:16:52.601Z"},{"_id":"6846e0946d172100113daea5","additionalFees":[],"check":1,"createdAt":"2025-06-09T13:24:36.313Z","customer":{"id":"6468c4cf708cb0a42b07fec7","name":"Daiii","phone":"41995263468","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Jacob macanhan , Nº 3313","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Jd. Claudia","streetName":"Jacob macanhan ","streetNumber":"3313","postalCode":"","reference":"","complement":"Loterica "},"deliveryFee":3,"discounts":[],"from":"menu-share-adm","id":"6846e0946d172100113daea5","items":[{"_id":"6846e0a06bc888cd63bb95c0","id":0,"name":"Marmita P Salada + Carne","quantity":1,"observation":"Sem cebola \nFaz favor de temperar salada ","externalId":"","backoffice_id":"","internalId":"664fb22a79d74000279ef6f1","price":16,"total":16,"subItems":[{"_id":"6846e0a06bc8883fdebb95c1","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":"Voucher ","order_automatic_accept":false,"payments":[{"name":"money","code":"money","value":"19","cardSelected":"","externalId":"","changeFor":null,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T14:15:00.000Z","salesChannel":"anotaai","schedule_order":{"date":"2025-06-09T14:15:00.000Z","start":"11:30","end":"12:00","timezone":"America/Sao_Paulo","accept_mode":"auto"},"shortReference":11,"time_max":"2025-06-09T14:19:36.313Z","total":19,"type":"DELIVERY","updatedAt":"2025-06-09T13:24:48.709Z"},{"_id":"6846d1368a52b10011770dac","additionalFees":[],"check":1,"createdAt":"2025-06-09T12:19:02.345Z","customer":{"id":"672b5efb45b3860011980682","name":"Rafael","phone":"41992002379","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Avenida Maringa, Nº 3036","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Kalay do Brasil","streetName":"Avenida Maringa","streetNumber":"3036","postalCode":"","reference":"","complement":"Kalay do Brasil"},"deliveryFee":0.01,"discounts":[],"from":"menu-share-adm","id":"6846d1368a52b10011770dac","items":[{"_id":"6846debeee33fc9c8910e58d","id":0,"name":"Marmita P","quantity":1,"externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846debeee33fc02a210e58e","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846debeee33fc860a10e58f","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846debeee33fc379410e590","name":"Refogado de Repolho com Cenoura","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846debeee33fc639210e591","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"6846debeee33fcfc7a10e592","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"16.01","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T13:45:00.000Z","salesChannel":"anotaai","schedule_order":{"date":"2025-06-09T13:45:00.000Z","start":"11:00","end":"11:30","timezone":"America/Sao_Paulo","accept_mode":"auto"},"shortReference":1,"time_max":"2025-06-09T13:14:02.345Z","total":16.01,"type":"DELIVERY","updatedAt":"2025-06-09T13:16:46.021Z"},{"_id":"6846dfbd5bc4f73f667d8090","additionalFees":[],"check":1,"createdAt":"2025-06-09T13:21:01.091Z","customer":{"id":null,"name":"KALAY DO BRASIL","phone":null,"taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"KALAY DO BRASIL, Nº 00, ","country":"br","state":"PR","city":"PINHAIS","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Kalay do Brasil","streetName":"KALAY DO BRASIL","streetNumber":"00","postalCode":"","reference":null,"complement":""},"deliveryFee":0.01,"discounts":[],"from":"pdv-popup","id":"6846dfbd5bc4f73f667d8090","items":[{"_id":"6846dfbd26a91b4653b37947","id":0,"name":"Marmita P","quantity":1,"observation":"GUSTAVO","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846dfbd26a91b5944b37948","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846dfbd26a91b55acb37949","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846dfbd26a91b3238b3794a","name":"Refogado de Repolho com Cenoura","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846dfbd26a91b00d1b3794b","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"6846dfbd26a91b77e4b3794c","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]},{"_id":"6846dfbd26a91b760cb3794d","id":0,"name":"Marmita P","quantity":1,"observation":"SERGIO","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846dfbd26a91b748fb3794e","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846dfbd26a91b0439b3794f","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846dfbd26a91b6c11b37950","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846dfbd26a91b7666b37951","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]},{"_id":"6846dfbd26a91b149cb37952","id":0,"name":"Marmita P","quantity":1,"observation":"WALTER","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846dfbd26a91be1f4b37953","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846dfbd26a91b7af7b37954","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846dfbd26a91bde20b37955","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846dfbd26a91b4fa6b37956","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]},{"_id":"6846dfbd26a91bff9bb37957","id":0,"name":"Marmita P","quantity":1,"observation":"DIOGO","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846dfbd26a91b7990b37958","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846dfbd26a91b4dcab37959","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846dfbd26a91b06aab3795a","name":"Refogado de Repolho com Cenoura","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846dfbd26a91b5b14b3795b","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"6846dfbd26a91b6779b3795c","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":true,"payments":[{"name":"card","code":"card","value":"64.01","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":true,"mode":2},"preparationStartDateTime":"2025-06-09T13:21:01.091Z","salesChannel":"anotaai","shortReference":10,"time_max":"2025-06-09T14:16:01.091Z","total":64.01,"type":"DELIVERY","updatedAt":"2025-06-09T13:21:01.184Z"},{"_id":"6846db216bef6600118fdb6e","additionalFees":[],"check":1,"createdAt":"2025-06-09T13:01:21.575Z","customer":{"id":"6449384a57693b0012edabf6","name":"Daiane Kuss","phone":"41988323684","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Tanagra, Nº 100","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Alto Tarumã","streetName":"Tanagra","streetNumber":"100","postalCode":"","reference":"","complement":"Cmei Aprendendo e Crescendo"},"deliveryFee":5,"discounts":[],"from":"menu-share-adm","id":"6846db216bef6600118fdb6e","items":[{"_id":"6846db6c26a91b4a09b36bf1","id":0,"name":"Marmita P","quantity":1,"observation":"Bom dia, Por favor entregar ***12:00***\n\nObrigada","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846db6c26a91b9cd6b36bf2","name":"Preto","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90292","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846db6c26a91b6424b36bf3","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846db6c26a91b3d5eb36bf4","name":"Refogado de Repolho com Cenoura","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846db6c26a91b9ed2b36bf5","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"6846db6c26a91b17e9b36bf6","name":"Almondegas ao Molho Vermelho","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddd0","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"pix","code":"pix","value":"21","cardSelected":"","externalId":"","changeFor":0,"prepaid":true}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T13:01:21.575Z","salesChannel":"anotaai","shortReference":6,"time_max":"2025-06-09T13:56:21.575Z","total":21,"type":"DELIVERY","updatedAt":"2025-06-09T13:02:36.290Z"},{"_id":"6846da4e7617ba0011847e6f","additionalFees":[],"check":1,"createdAt":"2025-06-09T12:57:50.891Z","customer":{"id":"6443fb004b171100115cfc53","name":"Rhaysa Wawruk ","phone":"41992784990","taxPayerIdentificationNumber":null},"deliveryFee":0,"discounts":[],"from":"whats","id":"6846da4e7617ba0011847e6f","items":[{"_id":"6846da80ee33fc9fbc10d8d5","id":0,"name":"Marmita G","quantity":1,"externalId":"","backoffice_id":"","internalId":"64354323b33d57002746b409","price":21,"total":21,"subItems":[{"_id":"6846da80ee33fc147d10d8d6","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846da80ee33fc7c9e10d8d7","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846da80ee33fcc2d910d8d8","name":"Refogado de Repolho com Cenoura","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846da80ee33fc0f8410d8d9","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"6846da80ee33fcd9ed10d8da","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"pix","code":"pix","value":"21","cardSelected":"","externalId":"","changeFor":0,"prepaid":true}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T12:57:50.891Z","salesChannel":"anotaai","shortReference":5,"time_max":"2025-06-09T13:37:50.891Z","total":21,"type":"TAKE","updatedAt":"2025-06-09T12:58:40.845Z"},{"_id":"6846d9f96034ef0011d65f38","additionalFees":[],"check":1,"createdAt":"2025-06-09T12:56:25.595Z","customer":{"id":"67d8175a3cdf4900115a68b0","name":"Katia Baggio","phone":"41988986384","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Av. Maringá, Nº 3036, ","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Kalay do Brasil","streetName":"Av. Maringá","streetNumber":"3036","postalCode":"","reference":"","complement":""},"deliveryFee":0.01,"discounts":[],"from":"menu-share-adm","id":"6846d9f96034ef0011d65f38","items":[{"_id":"6846da06b63765c27319b39c","id":0,"name":"Marmita P","quantity":1,"observation":"Tirar a farofa ","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846da06b63765650319b39d","name":"Branco","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90281","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846da06b63765100019b39e","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846da06b63765c9de19b39f","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846da06b6376558be19b3a0","name":"Almondegas ao Molho Vermelho","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddd0","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"16.01","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T12:56:25.595Z","salesChannel":"anotaai","shortReference":4,"time_max":"2025-06-09T13:51:25.595Z","total":16.01,"type":"DELIVERY","updatedAt":"2025-06-09T12:56:38.520Z"},{"_id":"6846d253dafaa200116b68ac","additionalFees":[],"check":1,"createdAt":"2025-06-09T12:23:47.772Z","customer":{"id":"66fc0efed7d9bd00113efc75","name":"Tiello martins","phone":"41999443326","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Rua pixoxo, Nº 1582","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Jd. Claudia","streetName":"Rua pixoxo","streetNumber":"1582","postalCode":"","reference":"","complement":"Casa"},"deliveryFee":3,"discounts":[],"from":"menu-share-adm","id":"6846d253dafaa200116b68ac","items":[{"_id":"6846d270f89261965553435b","id":0,"name":"Marmita P","quantity":1,"observation":"Sou filho da laila pagamento final do mês \nFRANGO SEM CEBOLA ","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846d270f8926174d653435c","name":"Preto","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90292","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846d270f89261d63153435d","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846d270f89261a67153435e","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846d270f89261937353435f","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]},{"_id":"6846d270f89261a21b534360","id":0,"name":"Coca Cola 2 Litros","quantity":1,"externalId":"","backoffice_id":"","internalId":"664dfcdd438703001b6fb06f","price":12,"total":12,"subItems":[]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"money","code":"money","value":"31","cardSelected":"","externalId":"","changeFor":null,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T12:23:47.772Z","salesChannel":"anotaai","shortReference":3,"time_max":"2025-06-09T13:18:47.772Z","total":31,"type":"DELIVERY","updatedAt":"2025-06-09T12:24:16.602Z"},{"_id":"6846d2376034ef0011d64556","additionalFees":[],"check":1,"createdAt":"2025-06-09T12:23:19.916Z","customer":{"id":"68079d89b65db00011f5746d","name":"ElianeHenemann","phone":"41997395221","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Avenida Maringá , Nº 3036","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Atuba - Pinhais","streetName":"Avenida Maringá ","streetNumber":"3036","postalCode":"","reference":"Kalay","complement":"Kalay"},"deliveryFee":5,"discounts":[],"from":"menu-share-adm","id":"6846d2376034ef0011d64556","items":[{"_id":"6846d249ee33fc202e10c7c6","id":0,"name":"Marmita P","quantity":1,"observation":"Eliane Kalay ","externalId":"","backoffice_id":"","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"6846d249ee33fccdad10c7c7","name":"Preto","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90292","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"6846d249ee33fcdec210c7c8","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"6846d249ee33fc49f110c7c9","name":"Farofa de Ovos","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"6846d249ee33fc18df10c7ca","name":"File de Frango Grelhado(acebolado)","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddbf","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"21","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-06-09T12:23:19.916Z","salesChannel":"anotaai","shortReference":2,"time_max":"2025-06-09T13:18:19.916Z","total":21,"type":"DELIVERY","updatedAt":"2025-06-09T12:23:37.523Z"}]
+----------------------------------------
+2025-06-09 10:26:34 - Transação iniciada
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846dde0dafaa200116b97fa
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T13:13:04.476Z
+    [customer] => Array
+        (
+            [id] => 645cf0b5d3a01500122317c1
+            [name] => Ana Carolina Nunes
+            [phone] => 41996245244
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryFee] => 0
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846dde0dafaa200116b97fa
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846dec46bc888a9d0bb8e2a
+                    [id] => 0
+                    [name] => Caldo de Aipim com Calabresa(acompanha arroz)
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 67f3be53a7fd2250ea650e33
+                    [price] => 0
+                    [total] => 21
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846dec46bc888519bbb8e2b
+                                    [name] => G
+                                    [quantity] => 1
+                                    [internalId] => 67f3bed14a3b02f0e2d12c6b
+                                    [backoffice_id] => 
+                                    [price] => 21
+                                    [total] => 21
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => pix
+                    [code] => pix
+                    [value] => 21
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 1
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T14:15:00.000Z
+    [salesChannel] => anotaai
+    [schedule_order] => Array
+        (
+            [date] => 2025-06-09T14:15:00.000Z
+            [start] => 11:30
+            [end] => 12:00
+            [timezone] => America/Sao_Paulo
+            [accept_mode] => auto
+        )
+
+    [shortReference] => 7
+    [time_max] => 2025-06-09T13:53:04.476Z
+    [total] => 21
+    [type] => TAKE
+    [updatedAt] => 2025-06-09T13:16:52.601Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido atualizado por ter informações diferentes: 28
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846e0946d172100113daea5
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T13:24:36.313Z
+    [customer] => Array
+        (
+            [id] => 6468c4cf708cb0a42b07fec7
+            [name] => Daiii
+            [phone] => 41995263468
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Jacob macanhan , Nº 3313
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Jd. Claudia
+            [streetName] => Jacob macanhan 
+            [streetNumber] => 3313
+            [postalCode] => 
+            [reference] => 
+            [complement] => Loterica 
+        )
+
+    [deliveryFee] => 3
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846e0946d172100113daea5
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846e0a06bc888cd63bb95c0
+                    [id] => 0
+                    [name] => Marmita P Salada + Carne
+                    [quantity] => 1
+                    [observation] => Sem cebola 
+Faz favor de temperar salada 
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 664fb22a79d74000279ef6f1
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846e0a06bc8883fdebb95c1
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => Voucher 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => money
+                    [code] => money
+                    [value] => 19
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T14:15:00.000Z
+    [salesChannel] => anotaai
+    [schedule_order] => Array
+        (
+            [date] => 2025-06-09T14:15:00.000Z
+            [start] => 11:30
+            [end] => 12:00
+            [timezone] => America/Sao_Paulo
+            [accept_mode] => auto
+        )
+
+    [shortReference] => 11
+    [time_max] => 2025-06-09T14:19:36.313Z
+    [total] => 19
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T13:24:48.709Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido atualizado por ter informações diferentes: 31
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846d1368a52b10011770dac
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T12:19:02.345Z
+    [customer] => Array
+        (
+            [id] => 672b5efb45b3860011980682
+            [name] => Rafael
+            [phone] => 41992002379
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Avenida Maringa, Nº 3036
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Kalay do Brasil
+            [streetName] => Avenida Maringa
+            [streetNumber] => 3036
+            [postalCode] => 
+            [reference] => 
+            [complement] => Kalay do Brasil
+        )
+
+    [deliveryFee] => 0.01
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846d1368a52b10011770dac
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846debeee33fc9c8910e58d
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846debeee33fc02a210e58e
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846debeee33fc860a10e58f
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846debeee33fc379410e590
+                                    [name] => Refogado de Repolho com Cenoura
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846debeee33fc639210e591
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 6846debeee33fcfc7a10e592
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 16.01
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T13:45:00.000Z
+    [salesChannel] => anotaai
+    [schedule_order] => Array
+        (
+            [date] => 2025-06-09T13:45:00.000Z
+            [start] => 11:00
+            [end] => 11:30
+            [timezone] => America/Sao_Paulo
+            [accept_mode] => auto
+        )
+
+    [shortReference] => 1
+    [time_max] => 2025-06-09T13:14:02.345Z
+    [total] => 16.01
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T13:16:46.021Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido atualizado por ter informações diferentes: 23
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846dfbd5bc4f73f667d8090
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T13:21:01.091Z
+    [customer] => Array
+        (
+            [id] => 
+            [name] => KALAY DO BRASIL
+            [phone] => 
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => KALAY DO BRASIL, Nº 00, 
+            [country] => br
+            [state] => PR
+            [city] => PINHAIS
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Kalay do Brasil
+            [streetName] => KALAY DO BRASIL
+            [streetNumber] => 00
+            [postalCode] => 
+            [reference] => 
+            [complement] => 
+        )
+
+    [deliveryFee] => 0.01
+    [discounts] => Array
+        (
+        )
+
+    [from] => pdv-popup
+    [id] => 6846dfbd5bc4f73f667d8090
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846dfbd26a91b4653b37947
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => GUSTAVO
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b5944b37948
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b55acb37949
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b3238b3794a
+                                    [name] => Refogado de Repolho com Cenoura
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b00d1b3794b
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b77e4b3794c
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [_id] => 6846dfbd26a91b760cb3794d
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => SERGIO
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b748fb3794e
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b0439b3794f
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b6c11b37950
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b7666b37951
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [_id] => 6846dfbd26a91b149cb37952
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => WALTER
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846dfbd26a91be1f4b37953
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b7af7b37954
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846dfbd26a91bde20b37955
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b4fa6b37956
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [_id] => 6846dfbd26a91bff9bb37957
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => DIOGO
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b7990b37958
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b4dcab37959
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b06aab3795a
+                                    [name] => Refogado de Repolho com Cenoura
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b5b14b3795b
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 6846dfbd26a91b6779b3795c
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 1
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 64.01
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 1
+            [mode] => 2
+        )
+
+    [preparationStartDateTime] => 2025-06-09T13:21:01.091Z
+    [salesChannel] => anotaai
+    [shortReference] => 10
+    [time_max] => 2025-06-09T14:16:01.091Z
+    [total] => 64.01
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T13:21:01.184Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido atualizado por ter informações diferentes: 30
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846db216bef6600118fdb6e
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T13:01:21.575Z
+    [customer] => Array
+        (
+            [id] => 6449384a57693b0012edabf6
+            [name] => Daiane Kuss
+            [phone] => 41988323684
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Tanagra, Nº 100
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Alto Tarumã
+            [streetName] => Tanagra
+            [streetNumber] => 100
+            [postalCode] => 
+            [reference] => 
+            [complement] => Cmei Aprendendo e Crescendo
+        )
+
+    [deliveryFee] => 5
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846db216bef6600118fdb6e
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846db6c26a91b4a09b36bf1
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => Bom dia, Por favor entregar ***12:00***
+
+Obrigada
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846db6c26a91b9cd6b36bf2
+                                    [name] => Preto
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90292
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846db6c26a91b6424b36bf3
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846db6c26a91b3d5eb36bf4
+                                    [name] => Refogado de Repolho com Cenoura
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846db6c26a91b9ed2b36bf5
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 6846db6c26a91b17e9b36bf6
+                                    [name] => Almondegas ao Molho Vermelho
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddd0
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => pix
+                    [code] => pix
+                    [value] => 21
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 1
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T13:01:21.575Z
+    [salesChannel] => anotaai
+    [shortReference] => 6
+    [time_max] => 2025-06-09T13:56:21.575Z
+    [total] => 21
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T13:02:36.290Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido já existe e está atualizado: 26
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846da4e7617ba0011847e6f
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T12:57:50.891Z
+    [customer] => Array
+        (
+            [id] => 6443fb004b171100115cfc53
+            [name] => Rhaysa Wawruk 
+            [phone] => 41992784990
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryFee] => 0
+    [discounts] => Array
+        (
+        )
+
+    [from] => whats
+    [id] => 6846da4e7617ba0011847e6f
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846da80ee33fc9fbc10d8d5
+                    [id] => 0
+                    [name] => Marmita G
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 64354323b33d57002746b409
+                    [price] => 21
+                    [total] => 21
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846da80ee33fc147d10d8d6
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846da80ee33fc7c9e10d8d7
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846da80ee33fcc2d910d8d8
+                                    [name] => Refogado de Repolho com Cenoura
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846da80ee33fc0f8410d8d9
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 6846da80ee33fcd9ed10d8da
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => pix
+                    [code] => pix
+                    [value] => 21
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 1
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T12:57:50.891Z
+    [salesChannel] => anotaai
+    [shortReference] => 5
+    [time_max] => 2025-06-09T13:37:50.891Z
+    [total] => 21
+    [type] => TAKE
+    [updatedAt] => 2025-06-09T12:58:40.845Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido já existe e está atualizado: 25
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846d9f96034ef0011d65f38
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T12:56:25.595Z
+    [customer] => Array
+        (
+            [id] => 67d8175a3cdf4900115a68b0
+            [name] => Katia Baggio
+            [phone] => 41988986384
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Av. Maringá, Nº 3036, 
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Kalay do Brasil
+            [streetName] => Av. Maringá
+            [streetNumber] => 3036
+            [postalCode] => 
+            [reference] => 
+            [complement] => 
+        )
+
+    [deliveryFee] => 0.01
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846d9f96034ef0011d65f38
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846da06b63765c27319b39c
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => Tirar a farofa 
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846da06b63765650319b39d
+                                    [name] => Branco
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90281
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846da06b63765100019b39e
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846da06b63765c9de19b39f
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846da06b6376558be19b3a0
+                                    [name] => Almondegas ao Molho Vermelho
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddd0
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 16.01
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T12:56:25.595Z
+    [salesChannel] => anotaai
+    [shortReference] => 4
+    [time_max] => 2025-06-09T13:51:25.595Z
+    [total] => 16.01
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T12:56:38.520Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido já existe e está atualizado: 20
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846d253dafaa200116b68ac
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T12:23:47.772Z
+    [customer] => Array
+        (
+            [id] => 66fc0efed7d9bd00113efc75
+            [name] => Tiello martins
+            [phone] => 41999443326
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Rua pixoxo, Nº 1582
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Jd. Claudia
+            [streetName] => Rua pixoxo
+            [streetNumber] => 1582
+            [postalCode] => 
+            [reference] => 
+            [complement] => Casa
+        )
+
+    [deliveryFee] => 3
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846d253dafaa200116b68ac
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846d270f89261965553435b
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => Sou filho da laila pagamento final do mês 
+FRANGO SEM CEBOLA 
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846d270f8926174d653435c
+                                    [name] => Preto
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90292
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846d270f89261d63153435d
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846d270f89261a67153435e
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846d270f89261937353435f
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [_id] => 6846d270f89261a21b534360
+                    [id] => 0
+                    [name] => Coca Cola 2 Litros
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 664dfcdd438703001b6fb06f
+                    [price] => 12
+                    [total] => 12
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => money
+                    [code] => money
+                    [value] => 31
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T12:23:47.772Z
+    [salesChannel] => anotaai
+    [shortReference] => 3
+    [time_max] => 2025-06-09T13:18:47.772Z
+    [total] => 31
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T12:24:16.602Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido já existe e está atualizado: 21
+----------------------------------------
+2025-06-09 10:26:34 - Processando pedido:
+Array
+(
+    [_id] => 6846d2376034ef0011d64556
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-06-09T12:23:19.916Z
+    [customer] => Array
+        (
+            [id] => 68079d89b65db00011f5746d
+            [name] => ElianeHenemann
+            [phone] => 41997395221
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Avenida Maringá , Nº 3036
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Atuba - Pinhais
+            [streetName] => Avenida Maringá 
+            [streetNumber] => 3036
+            [postalCode] => 
+            [reference] => Kalay
+            [complement] => Kalay
+        )
+
+    [deliveryFee] => 5
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6846d2376034ef0011d64556
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6846d249ee33fc202e10c7c6
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => Eliane Kalay 
+                    [externalId] => 
+                    [backoffice_id] => 
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 6846d249ee33fccdad10c7c7
+                                    [name] => Preto
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90292
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 6846d249ee33fcdec210c7c8
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 6846d249ee33fc49f110c7c9
+                                    [name] => Farofa de Ovos
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 6846d249ee33fc18df10c7ca
+                                    [name] => File de Frango Grelhado(acebolado)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddbf
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 21
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-06-09T12:23:19.916Z
+    [salesChannel] => anotaai
+    [shortReference] => 2
+    [time_max] => 2025-06-09T13:18:19.916Z
+    [total] => 21
+    [type] => DELIVERY
+    [updatedAt] => 2025-06-09T12:23:37.523Z
+)
+
+----------------------------------------
+2025-06-09 10:26:34 - Pedido já existe e está atualizado: 22
+----------------------------------------
+2025-06-09 10:26:34 - Transação finalizada com sucesso
+Array
+(
+    [inseridos] => 0
+    [atualizados] => 4
+    [erros] => 0
+)
+
+----------------------------------------
+2025-08-05 11:22:45 - Dados recebidos:
+
+----------------------------------------
+2025-08-05 11:22:45 - Erro ao decodificar JSON: Syntax error
+----------------------------------------
+2025-08-06 10:09:03 - Dados recebidos:
+
+----------------------------------------
+2025-08-06 10:09:03 - Erro ao decodificar JSON: Syntax error
+----------------------------------------
+2025-08-06 10:09:30 - Dados recebidos:
+[{"_id":"689352ad61f286b9dd75808d","additionalFees":[],"check":1,"createdAt":"2025-08-06T13:03:41.018Z","customer":{"id":null,"name":"RC DECKER METALURGICA ","phone":null,"taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"SEVERINO MASSIGMAN , Nº 538","country":"br","state":"PR","city":"PINHAIS","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Weissopolis","streetName":"SEVERINO MASSIGMAN ","streetNumber":"538","postalCode":"","reference":null,"complement":"B"},"deliveryFee":15,"discounts":[],"from":"pdv-popup","id":"689352ad61f286b9dd75808d","items":[{"_id":"689352ad8e50f31e48999b74","id":0,"name":"Marmita M","quantity":4,"externalId":"","backoffice_id":"73630657","internalId":"64354303934a32002877f3b3","price":19,"total":76,"subItems":[{"_id":"689352ad8e50f307e8999b75","name":"Preto","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90292","backoffice_id":"79506","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"689352ad8e50f39e04999b76","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"81434","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"689352ad8e50f36aa1999b77","name":"Macarrao a Bolonhesa","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12208","backoffice_id":"","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"689352ad8e50f3e332999b78","name":"Farofa de Linguiça","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"2081922759","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0},{"_id":"689352ad8e50f392ad999b79","name":"Carne Moida com Batatas","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddd0","backoffice_id":"-176003961","price":0,"total":0,"externalCode":"extra","id":5,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":true,"payments":[{"name":"card","code":"card","value":"91","cardSelected":"PIX - 44167570000146","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":true,"mode":2},"preparationStartDateTime":"2025-08-06T13:03:41.018Z","salesChannel":"anotaai","shortReference":12,"time_max":"2025-08-06T13:58:41.018Z","total":91,"type":"DELIVERY","updatedAt":"2025-08-06T13:03:41.070Z"},{"_id":"6893523c385c50d76f97488f","additionalFees":[],"check":1,"createdAt":"2025-08-06T13:01:48.065Z","customer":{"id":null,"name":"LUCAS XAVIER HARPIA ","phone":null,"taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"HARPIA , Nº 00, ","country":"br","state":"PR","city":"PINHAIS ","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Harpia/Leme","streetName":"HARPIA ","streetNumber":"00","postalCode":"","reference":null,"complement":""},"deliveryFee":0.5,"discounts":[],"from":"pdv-popup","id":"6893523c385c50d76f97488f","items":[{"_id":"6893523cf200466812082d4b","id":0,"name":"Feijoada Completa P","quantity":1,"externalId":"","backoffice_id":"363616482","internalId":"643686f996df250027a1d3f4","price":25,"total":25,"subItems":[]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":true,"payments":[{"name":"card","code":"card","value":"25.5","cardSelected":"Crédito","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":true,"mode":2},"preparationStartDateTime":"2025-08-06T13:01:48.065Z","salesChannel":"anotaai","shortReference":11,"time_max":"2025-08-06T13:56:48.065Z","total":25.5,"type":"DELIVERY","updatedAt":"2025-08-06T13:01:48.109Z"},{"_id":"68934f1361f286b9dd756abe","additionalFees":[],"check":1,"createdAt":"2025-08-06T12:48:19.764Z","customer":{"id":"68079d89b65db00011f5746d","name":"ElianeHenemann","phone":"41997395221","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Av Maringá , Nº 3036","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Kalay do Brasil","streetName":"Av Maringá ","streetNumber":"3036","postalCode":"","reference":"Kalay ","complement":"Kalay"},"deliveryFee":0.01,"discounts":[],"from":"menu-share-adm","id":"68934f1361f286b9dd756abe","items":[{"_id":"68934f58aad01aef4f3f1ad1","id":0,"name":"Feijoada Completa P","quantity":1,"externalId":"","backoffice_id":"363616482","internalId":"643686f996df250027a1d3f4","price":25,"total":25,"subItems":[]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"25.01","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-08-06T12:48:19.764Z","salesChannel":"anotaai","shortReference":7,"time_max":"2025-08-06T13:43:19.764Z","total":25.01,"type":"DELIVERY","updatedAt":"2025-08-06T12:49:28.768Z"},{"_id":"68934c6fe39dfbbb989fcc66","additionalFees":[],"check":1,"createdAt":"2025-08-06T12:37:03.959Z","customer":{"id":"66fc0efed7d9bd00113efc75","name":"Tiello martins","phone":"41999443326","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Pixoxo, Nº 1582","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Jd. Claudia","streetName":"Pixoxo","streetNumber":"1582","postalCode":"","reference":"","complement":"Casa"},"deliveryFee":5,"discounts":[],"from":"menu-share-adm","id":"68934c6fe39dfbbb989fcc66","items":[{"_id":"68934c84206eb75ed6f8f987","id":0,"name":"Marmita P","quantity":1,"observation":"Sou filho da laila pagamento final do mês \nSEM FAROFA DE LINGUIÇA ","externalId":"","backoffice_id":"73630660","internalId":"643544fa934a32002877fcbd","price":16,"total":16,"subItems":[{"_id":"68934c84206eb73bbbf8f988","name":"Preto","quantity":1,"externalId":"","internalId":"6671dc98688a72001cc90292","backoffice_id":"79506","price":0,"total":0,"externalCode":"extra","id":1,"id_parent":0},{"_id":"68934c84206eb70148f8f989","name":"Arroz","quantity":1,"externalId":"","internalId":"677bb832e349b45194e121f7","backoffice_id":"81434","price":0,"total":0,"externalCode":"extra","id":2,"id_parent":0},{"_id":"68934c84206eb7acadf8f98a","name":"Farofa de Linguiça","quantity":1,"externalId":"","internalId":"677bb832e349b45194e12219","backoffice_id":"2081922759","price":0,"total":0,"externalCode":"extra","id":3,"id_parent":0},{"_id":"68934c84206eb7ead7f8f98b","name":"Carne Moida com Batatas","quantity":1,"externalId":"","internalId":"673b1da1ee0695001c58ddd0","backoffice_id":"-176003961","price":0,"total":0,"externalCode":"extra","id":4,"id_parent":0}]},{"_id":"68934c84206eb7aaa4f8f98c","id":0,"name":"Coca-cola 600ml","quantity":1,"externalId":"","backoffice_id":"1524179372","internalId":"662a495fcc01a7001c1aa3cd","price":8,"total":8,"subItems":[]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"money","code":"money","value":"29","cardSelected":"","externalId":"","changeFor":null,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-08-06T12:37:03.959Z","salesChannel":"anotaai","shortReference":5,"time_max":"2025-08-06T13:32:03.959Z","total":29,"type":"DELIVERY","updatedAt":"2025-08-06T12:37:24.886Z"},{"_id":"68934a0f385c50d76f9725e7","additionalFees":[],"check":1,"createdAt":"2025-08-06T12:26:55.361Z","customer":{"id":"646cb6f885e72ed16472a8b7","name":"Aline Cristine","phone":"41992328085","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Rua alto pArana , Nº 1693","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"Emiliano Perneta","streetName":"Rua alto pArana ","streetNumber":"1693","postalCode":"","reference":"Retalhaço ","complement":"Barracão 5"},"deliveryFee":8,"discounts":[],"from":"menu-share-adm","id":"68934a0f385c50d76f9725e7","items":[{"_id":"68934a1276a060042b3672ac","id":0,"name":"Feijoada Completa M","quantity":1,"externalId":"","backoffice_id":"363616479","internalId":"6436876f2ad9950027ba658d","price":35,"total":35,"subItems":[]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"43","cardSelected":"Debito","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-08-06T12:26:55.361Z","salesChannel":"anotaai","shortReference":4,"time_max":"2025-08-06T13:21:55.361Z","total":43,"type":"DELIVERY","updatedAt":"2025-08-06T12:26:58.210Z"},{"_id":"6893494ade04b3d01f67b3c7","additionalFees":[],"check":1,"createdAt":"2025-08-06T12:23:38.580Z","customer":{"id":"67d8175a3cdf4900115a68b0","name":"Katia Baggio","phone":"41988986384","taxPayerIdentificationNumber":null},"deliveryAddress":{"formattedAddress":"Av Maringá , Nº 3036, ","country":"br","state":"PR","city":"Pinhais","coordinates":{"latitude":null,"longitude":null},"neighborhood":"_Kalay do Brasil","streetName":"Av Maringá ","streetNumber":"3036","postalCode":"","reference":"","complement":""},"deliveryFee":0.01,"discounts":[],"from":"menu-share-adm","id":"6893494ade04b3d01f67b3c7","items":[{"_id":"689349638e50f336b09984e3","id":0,"name":"Feijoada Completa P","quantity":1,"observation":"Tirar as carnes de porco da feijoada e colocar pouca calabresa deixar mais feijão\nNão enviar vinagrete","externalId":"","backoffice_id":"363616482","internalId":"643686f996df250027a1d3f4","price":25,"total":25,"subItems":[]},{"_id":"689349638e50f39ff99984e4","id":0,"name":"Bananinha a Milanesa","quantity":1,"externalId":"","backoffice_id":"-2019877792","internalId":"6651d84f9b140d001c0cd3f7","price":0,"total":6,"subItems":[{"_id":"689349638e50f34dba9984e5","name":"Pp (6 UNIDADES)","quantity":1,"externalId":"","internalId":"68430b10f51b59bbd72dffbb","backoffice_id":"1883948470","price":6,"total":6,"externalCode":"extra","id":1,"id_parent":0}]}],"menu_version":2,"merchant":{"name":"Marmitaria Farias","id":"64340c9c6288400012a6d51c","unit":"64340c9c6288400012a6d52a"},"observation":null,"order_automatic_accept":false,"payments":[{"name":"card","code":"card","value":"31.01","cardSelected":"Sodexo / Pluxee Refeição","externalId":"","changeFor":0,"prepaid":false}],"pdv":{"status":false},"preparationStartDateTime":"2025-08-06T12:23:38.580Z","salesChannel":"anotaai","shortReference":3,"time_max":"2025-08-06T13:18:38.580Z","total":31.01,"type":"DELIVERY","updatedAt":"2025-08-06T12:24:03.766Z"}]
+----------------------------------------
+2025-08-06 10:09:30 - Transação iniciada
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 689352ad61f286b9dd75808d
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T13:03:41.018Z
+    [customer] => Array
+        (
+            [id] => 
+            [name] => RC DECKER METALURGICA 
+            [phone] => 
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => SEVERINO MASSIGMAN , Nº 538
+            [country] => br
+            [state] => PR
+            [city] => PINHAIS
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Weissopolis
+            [streetName] => SEVERINO MASSIGMAN 
+            [streetNumber] => 538
+            [postalCode] => 
+            [reference] => 
+            [complement] => B
+        )
+
+    [deliveryFee] => 15
+    [discounts] => Array
+        (
+        )
+
+    [from] => pdv-popup
+    [id] => 689352ad61f286b9dd75808d
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 689352ad8e50f31e48999b74
+                    [id] => 0
+                    [name] => Marmita M
+                    [quantity] => 4
+                    [externalId] => 
+                    [backoffice_id] => 73630657
+                    [internalId] => 64354303934a32002877f3b3
+                    [price] => 19
+                    [total] => 76
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 689352ad8e50f307e8999b75
+                                    [name] => Preto
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90292
+                                    [backoffice_id] => 79506
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 689352ad8e50f39e04999b76
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 81434
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 689352ad8e50f36aa1999b77
+                                    [name] => Macarrao a Bolonhesa
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12208
+                                    [backoffice_id] => 
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 689352ad8e50f3e332999b78
+                                    [name] => Farofa de Linguiça
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 2081922759
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [_id] => 689352ad8e50f392ad999b79
+                                    [name] => Carne Moida com Batatas
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddd0
+                                    [backoffice_id] => -176003961
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 5
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 1
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 91
+                    [cardSelected] => PIX - 44167570000146
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 1
+            [mode] => 2
+        )
+
+    [preparationStartDateTime] => 2025-08-06T13:03:41.018Z
+    [salesChannel] => anotaai
+    [shortReference] => 12
+    [time_max] => 2025-08-06T13:58:41.018Z
+    [total] => 91
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T13:03:41.070Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 831
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 609
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 76
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5235
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5235
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5235
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Marmita M
+    [id_produto] => 15
+    [quantidade] => 4
+    [preco] => 19
+    [total] => 76
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 6893523c385c50d76f97488f
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T13:01:48.065Z
+    [customer] => Array
+        (
+            [id] => 
+            [name] => LUCAS XAVIER HARPIA 
+            [phone] => 
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => HARPIA , Nº 00, 
+            [country] => br
+            [state] => PR
+            [city] => PINHAIS 
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Harpia/Leme
+            [streetName] => HARPIA 
+            [streetNumber] => 00
+            [postalCode] => 
+            [reference] => 
+            [complement] => 
+        )
+
+    [deliveryFee] => 0.5
+    [discounts] => Array
+        (
+        )
+
+    [from] => pdv-popup
+    [id] => 6893523c385c50d76f97488f
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 6893523cf200466812082d4b
+                    [id] => 0
+                    [name] => Feijoada Completa P
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 363616482
+                    [internalId] => 643686f996df250027a1d3f4
+                    [price] => 25
+                    [total] => 25
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 1
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 25.5
+                    [cardSelected] => Crédito
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 1
+            [mode] => 2
+        )
+
+    [preparationStartDateTime] => 2025-08-06T13:01:48.065Z
+    [salesChannel] => anotaai
+    [shortReference] => 11
+    [time_max] => 2025-08-06T13:56:48.065Z
+    [total] => 25.5
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T13:01:48.109Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 325
+----------------------------------------
+2025-08-06 10:09:30 - Endereço existente atualizado: 197
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 197
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 25
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5236
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5236
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5236
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Feijoada Completa P
+    [id_produto] => 8
+    [quantidade] => 1
+    [preco] => 25
+    [total] => 25
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 68934f1361f286b9dd756abe
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T12:48:19.764Z
+    [customer] => Array
+        (
+            [id] => 68079d89b65db00011f5746d
+            [name] => ElianeHenemann
+            [phone] => 41997395221
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Av Maringá , Nº 3036
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Kalay do Brasil
+            [streetName] => Av Maringá 
+            [streetNumber] => 3036
+            [postalCode] => 
+            [reference] => Kalay 
+            [complement] => Kalay
+        )
+
+    [deliveryFee] => 0.01
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 68934f1361f286b9dd756abe
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 68934f58aad01aef4f3f1ad1
+                    [id] => 0
+                    [name] => Feijoada Completa P
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 363616482
+                    [internalId] => 643686f996df250027a1d3f4
+                    [price] => 25
+                    [total] => 25
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 25.01
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-08-06T12:48:19.764Z
+    [salesChannel] => anotaai
+    [shortReference] => 7
+    [time_max] => 2025-08-06T13:43:19.764Z
+    [total] => 25.01
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T12:49:28.768Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 333
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 786
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 25
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5237
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5237
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5237
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Feijoada Completa P
+    [id_produto] => 8
+    [quantidade] => 1
+    [preco] => 25
+    [total] => 25
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 68934c6fe39dfbbb989fcc66
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T12:37:03.959Z
+    [customer] => Array
+        (
+            [id] => 66fc0efed7d9bd00113efc75
+            [name] => Tiello martins
+            [phone] => 41999443326
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Pixoxo, Nº 1582
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Jd. Claudia
+            [streetName] => Pixoxo
+            [streetNumber] => 1582
+            [postalCode] => 
+            [reference] => 
+            [complement] => Casa
+        )
+
+    [deliveryFee] => 5
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 68934c6fe39dfbbb989fcc66
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 68934c84206eb75ed6f8f987
+                    [id] => 0
+                    [name] => Marmita P
+                    [quantity] => 1
+                    [observation] => Sou filho da laila pagamento final do mês 
+SEM FAROFA DE LINGUIÇA 
+                    [externalId] => 
+                    [backoffice_id] => 73630660
+                    [internalId] => 643544fa934a32002877fcbd
+                    [price] => 16
+                    [total] => 16
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 68934c84206eb73bbbf8f988
+                                    [name] => Preto
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 6671dc98688a72001cc90292
+                                    [backoffice_id] => 79506
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [_id] => 68934c84206eb70148f8f989
+                                    [name] => Arroz
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e121f7
+                                    [backoffice_id] => 81434
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 2
+                                    [id_parent] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [_id] => 68934c84206eb7acadf8f98a
+                                    [name] => Farofa de Linguiça
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 677bb832e349b45194e12219
+                                    [backoffice_id] => 2081922759
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 3
+                                    [id_parent] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [_id] => 68934c84206eb7ead7f8f98b
+                                    [name] => Carne Moida com Batatas
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 673b1da1ee0695001c58ddd0
+                                    [backoffice_id] => -176003961
+                                    [price] => 0
+                                    [total] => 0
+                                    [externalCode] => extra
+                                    [id] => 4
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [_id] => 68934c84206eb7aaa4f8f98c
+                    [id] => 0
+                    [name] => Coca-cola 600ml
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 1524179372
+                    [internalId] => 662a495fcc01a7001c1aa3cd
+                    [price] => 8
+                    [total] => 8
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => money
+                    [code] => money
+                    [value] => 29
+                    [cardSelected] => 
+                    [externalId] => 
+                    [changeFor] => 
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-08-06T12:37:03.959Z
+    [salesChannel] => anotaai
+    [shortReference] => 5
+    [time_max] => 2025-08-06T13:32:03.959Z
+    [total] => 29
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T12:37:24.886Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 332
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 1165
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 24
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5238
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5238
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5238
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Marmita P
+    [id_produto] => 14
+    [quantidade] => 1
+    [preco] => 16
+    [total] => 16
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Coca-cola 600ml
+    [id_produto] => 41
+    [quantidade] => 1
+    [preco] => 8
+    [total] => 8
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 68934a0f385c50d76f9725e7
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T12:26:55.361Z
+    [customer] => Array
+        (
+            [id] => 646cb6f885e72ed16472a8b7
+            [name] => Aline Cristine
+            [phone] => 41992328085
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Rua alto pArana , Nº 1693
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => Emiliano Perneta
+            [streetName] => Rua alto pArana 
+            [streetNumber] => 1693
+            [postalCode] => 
+            [reference] => Retalhaço 
+            [complement] => Barracão 5
+        )
+
+    [deliveryFee] => 8
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 68934a0f385c50d76f9725e7
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 68934a1276a060042b3672ac
+                    [id] => 0
+                    [name] => Feijoada Completa M
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => 363616479
+                    [internalId] => 6436876f2ad9950027ba658d
+                    [price] => 35
+                    [total] => 35
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 43
+                    [cardSelected] => Debito
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-08-06T12:26:55.361Z
+    [salesChannel] => anotaai
+    [shortReference] => 4
+    [time_max] => 2025-08-06T13:21:55.361Z
+    [total] => 43
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T12:26:58.210Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 444
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 305
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 35
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5239
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5239
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5239
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Feijoada Completa M
+    [id_produto] => 9
+    [quantidade] => 1
+    [preco] => 35
+    [total] => 35
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Processando pedido:
+Array
+(
+    [_id] => 6893494ade04b3d01f67b3c7
+    [additionalFees] => Array
+        (
+        )
+
+    [check] => 1
+    [createdAt] => 2025-08-06T12:23:38.580Z
+    [customer] => Array
+        (
+            [id] => 67d8175a3cdf4900115a68b0
+            [name] => Katia Baggio
+            [phone] => 41988986384
+            [taxPayerIdentificationNumber] => 
+        )
+
+    [deliveryAddress] => Array
+        (
+            [formattedAddress] => Av Maringá , Nº 3036, 
+            [country] => br
+            [state] => PR
+            [city] => Pinhais
+            [coordinates] => Array
+                (
+                    [latitude] => 
+                    [longitude] => 
+                )
+
+            [neighborhood] => _Kalay do Brasil
+            [streetName] => Av Maringá 
+            [streetNumber] => 3036
+            [postalCode] => 
+            [reference] => 
+            [complement] => 
+        )
+
+    [deliveryFee] => 0.01
+    [discounts] => Array
+        (
+        )
+
+    [from] => menu-share-adm
+    [id] => 6893494ade04b3d01f67b3c7
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [_id] => 689349638e50f336b09984e3
+                    [id] => 0
+                    [name] => Feijoada Completa P
+                    [quantity] => 1
+                    [observation] => Tirar as carnes de porco da feijoada e colocar pouca calabresa deixar mais feijão
+Não enviar vinagrete
+                    [externalId] => 
+                    [backoffice_id] => 363616482
+                    [internalId] => 643686f996df250027a1d3f4
+                    [price] => 25
+                    [total] => 25
+                    [subItems] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [_id] => 689349638e50f39ff99984e4
+                    [id] => 0
+                    [name] => Bananinha a Milanesa
+                    [quantity] => 1
+                    [externalId] => 
+                    [backoffice_id] => -2019877792
+                    [internalId] => 6651d84f9b140d001c0cd3f7
+                    [price] => 0
+                    [total] => 6
+                    [subItems] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_id] => 689349638e50f34dba9984e5
+                                    [name] => Pp (6 UNIDADES)
+                                    [quantity] => 1
+                                    [externalId] => 
+                                    [internalId] => 68430b10f51b59bbd72dffbb
+                                    [backoffice_id] => 1883948470
+                                    [price] => 6
+                                    [total] => 6
+                                    [externalCode] => extra
+                                    [id] => 1
+                                    [id_parent] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [menu_version] => 2
+    [merchant] => Array
+        (
+            [name] => Marmitaria Farias
+            [id] => 64340c9c6288400012a6d51c
+            [unit] => 64340c9c6288400012a6d52a
+        )
+
+    [observation] => 
+    [order_automatic_accept] => 
+    [payments] => Array
+        (
+            [0] => Array
+                (
+                    [name] => card
+                    [code] => card
+                    [value] => 31.01
+                    [cardSelected] => Sodexo / Pluxee Refeição
+                    [externalId] => 
+                    [changeFor] => 0
+                    [prepaid] => 
+                )
+
+        )
+
+    [pdv] => Array
+        (
+            [status] => 
+        )
+
+    [preparationStartDateTime] => 2025-08-06T12:23:38.580Z
+    [salesChannel] => anotaai
+    [shortReference] => 3
+    [time_max] => 2025-08-06T13:18:38.580Z
+    [total] => 31.01
+    [type] => DELIVERY
+    [updatedAt] => 2025-08-06T12:24:03.766Z
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Cliente existente atualizado: 331
+----------------------------------------
+2025-08-06 10:09:30 - Usando endereço existente: 775
+----------------------------------------
+2025-08-06 10:09:30 - Subtotal calculado: 31
+----------------------------------------
+2025-08-06 10:09:30 - Novo pedido inserido com ID: 5240
+----------------------------------------
+2025-08-06 10:09:30 - Processando produtos para o pedido ID: 5240
+----------------------------------------
+2025-08-06 10:09:30 - Produtos antigos removidos do pedido ID: 5240
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Feijoada Completa P
+    [id_produto] => 8
+    [quantidade] => 1
+    [preco] => 25
+    [total] => 25
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Produto adicionado ao pedido
+Array
+(
+    [produto] => Bananinha a Milanesa
+    [id_produto] => 24
+    [quantidade] => 1
+    [preco] => 0
+    [total] => 6
+)
+
+----------------------------------------
+2025-08-06 10:09:30 - Transação finalizada com sucesso
+Array
+(
+    [inseridos] => 6
+    [atualizados] => 0
+    [erros] => 0
+)
+
+----------------------------------------
+2025-08-06 10:09:34 - Dados recebidos:
+
+----------------------------------------
+2025-08-06 10:09:34 - Erro ao decodificar JSON: Syntax error
+----------------------------------------

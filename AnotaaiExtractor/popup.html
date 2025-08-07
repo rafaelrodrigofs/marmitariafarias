@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+      *, *::after, *::before {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family: 'Poppins', sans-serif;
+      }
+      body {
+        width: 300px;
+        /* padding: 20px; */
+        background-color: #ffffff;
+        color: #333333;
+      }
+      .container {
+        padding: 10px;
+      }
+      h3 {
+        color: #1a202c;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 15px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      #exportar {
+        background-color: #2b6cb0;
+        color: white;
+      }
+
+      #exportar:hover {
+        background-color: #2c5282;
+      }
+
+      #limpar {
+        background-color: #e53e3e;
+        color: white;
+      }
+
+      #limpar:hover {
+        background-color: #c53030;
+      }
+
+      #status {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 14px;
+        color: #4a5568;
+        background-color: #edf2f7;
+      }
+
+      .contador {
+        background-color: #e2e8f0;
+        padding: 12px;
+        border-radius: 6px;
+        margin: 15px 0;
+        text-align: center;
+        font-size: 16px;
+        color: #4a5568;
+      }
+
+      .contador span {
+        font-weight: bold;
+        color: #2b6cb0;
+      }
+
+      header {
+        background: linear-gradient(135deg, #009aff 0%, #2F6180 100%);
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 28px;
+        /* font-weight: 600; */
+        /* text-transform: uppercase; */
+        /* letter-spacing: 1px; */
+      }
+
+      header p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #fff;
+      }
+
+      .automation-controls {
+        margin: 10px 0;
+        display: flex;
+        gap: 10px;
+      }
+
+      .play-button, .stop-button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .play-button {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      .stop-button {
+        background-color: #f44336;
+        color: white;
+      }
+
+      .reset-button {
+        background-color: #ff9800;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Anotaai Extractor</h1>
+      <p>Extraia e exporte pedidos com facilidade</p>
+    </header>
+    <div class="container">
+    <div class="contador">
+      Pedidos extraídos: <span id="numeroPedidos">0</span>
+    </div>
+    <div class="automation-controls">
+        <button id="playButton" class="play-button">
+            <i class="fas fa-play"></i> Iniciar Extração
+        </button>
+        <button id="stopButton" class="stop-button" style="display: none;">
+            <i class="fas fa-stop"></i> Parar
+        </button>
+        <button id="resetButton" class="reset-button">
+            <i class="fas fa-sync"></i> Resetar
+        </button>
+    </div>
+    <div class="data-container">
+        <label for="dataPedidos">Data dos pedidos:</label>
+        <input 
+            type="date" 
+            id="dataPedidos" 
+            value="<?php echo date('Y-m-d'); ?>"
+            style="
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0;
+                border: 1px solid #e2e8f0;
+                border-radius: 6px;
+                font-size: 14px;
+            "
+        >
+    </div>
+    <button id="exportar">Exportar Pedidos</button>
+    <button id="limpar">Limpar Dados</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </div>
+</body>
+</html>

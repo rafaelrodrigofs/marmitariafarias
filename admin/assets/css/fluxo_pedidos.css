@@ -1,0 +1,1304 @@
+/* Estilos para o Fluxo de Pedidos - Versão Otimizada */
+:root {
+    --cor-primaria: #0088cc;
+    --cor-secundaria: #f8f9fa;
+    --cor-sucesso: #28a745;
+    --cor-perigo: #dc3545;
+    --cor-aviso: #ffc107;
+    --cor-info: #17a2b8;
+    --cor-texto: #333;
+    --cor-borda: #ddd;
+    --cor-analise-bg: #f8f9fa;
+    --cor-producao-bg: #fff3cd;
+    --cor-entrega-bg: #d4edda;
+    --sombra-card: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --raio-borda: 4px;
+}
+
+/* Animações e transições
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes highlight {
+    0% { background-color: rgba(255, 193, 7, 0.2); }
+    100% { background-color: transparent; }
+}
+ */
+
+ @keyframes moveRight {
+    0% { transform: translateX(0); opacity: 1; }
+    50% { transform: translateX(50px); opacity: 0; }
+    51% { transform: translateX(-50px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes moveLeft {
+    0% { transform: translateX(0); opacity: 1; }
+    50% { transform: translateX(-50px); opacity: 0; }
+    51% { transform: translateX(50px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+.fluxo-pedidos-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', Arial, sans-serif;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Cabeçalho compacto */
+.fluxo-header-compact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-card);
+    transition: all 0.3s ease;
+}
+
+.fluxo-header-compact:hover, .fluxo-filtros-compact:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fluxo-title-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fluxo-title-actions h1 {
+    font-size: 20px;
+    margin: 0;
+    color: var(--cor-texto);
+}
+
+.fluxo-actions-group {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-reabrir, .btn-novo {
+    padding: 6px 12px;
+    border: none;
+    border-radius: var(--raio-borda);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-reabrir {
+    background-color: var(--cor-info);
+    color: white;
+}
+
+.btn-reabrir:hover, .btn-novo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-reabrir:active, .btn-novo:active {
+    transform: translateY(0);
+}
+
+.btn-novo {
+    background-color: var(--cor-primaria);
+    color: white;
+}
+
+.fluxo-extraidos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.extraidos-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.btn-exportar, .btn-limpar {
+    padding: 4px 8px;
+    border: none;
+    border-radius: var(--raio-borda);
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.btn-exportar {
+    background-color: var(--cor-info);
+    color: white;
+}
+
+.btn-exportar:hover, .btn-limpar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-exportar:active, .btn-limpar:active {
+    transform: translateY(0);
+}
+
+.btn-limpar {
+    background-color: var(--cor-perigo);
+    color: white;
+}
+
+/* Filtros compactos */
+.fluxo-filtros-compact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-card);
+}
+
+.filtros-group {
+    display: flex;
+    gap: 5px;
+}
+
+.filtro-btn {
+    padding: 6px 12px;
+    border: 1px solid var(--cor-borda);
+    background-color: white;
+    border-radius: var(--raio-borda);
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.filtro-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.filtro-btn.active {
+    background-color: var(--cor-primaria);
+    color: white;
+    border-color: var(--cor-primaria);
+    animation: pulse 0.3s ease-in-out;
+}
+
+.busca-group {
+    display: flex;
+    gap: 8px;
+}
+
+.busca-pedido, .busca-cliente {
+    display: flex;
+    align-items: center;
+}
+
+.busca-pedido input {
+    width: 100px;
+    padding: 6px 8px;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-borda) 0 0 var(--raio-borda);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.busca-pedido input:focus {
+    border-color: var(--cor-primaria);
+    box-shadow: 0 0 0 3px rgba(0, 136, 204, 0.2);
+    outline: none;
+}
+
+.busca-cliente input {
+    width: 180px;
+    padding: 6px 8px;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-borda);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.busca-pedido button {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 0 var(--raio-borda) var(--raio-borda) 0;
+    cursor: pointer;
+}
+
+/* Colunas de pedidos */
+.fluxo-colunas {
+    display: flex;
+    gap: 2px;
+    flex: 1;
+    /* overflow: hidden; */
+}
+
+.coluna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-card);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    animation: fadeIn 0.5s ease-out;
+    /* border: 1px solid #ddd; */
+}
+
+.coluna:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.coluna-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom: 1px solid var(--cor-borda); */
+    transition: background-color 0.3s ease;
+}
+
+.coluna-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contador {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.contador.updated {
+    animation: pulse 0.5s ease-in-out;
+}
+
+.em-analise .coluna-header {
+    background-color: #fdb9b9;
+}
+
+.em-producao .coluna-header {
+    background-color: var(--cor-producao-bg);
+}
+
+.prontos-entrega .coluna-header {
+    background-color: var(--cor-entrega-bg);
+}
+
+/* Configuração compacta */
+.coluna-config-compact {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--cor-borda);
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.tempos-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.tempo-estimado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-editar {
+    background: none;
+    border: none;
+    color: var(--cor-primaria);
+    cursor: pointer;
+    padding: 2px;
+    transition: all 0.2s ease;
+}
+
+.btn-editar:hover {
+    color: #0056b3;
+    transform: rotate(15deg);
+}
+
+.aceite-automatico {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+/* Switch para aceitar automaticamente */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-right: 8px;
+    transition: all 0.3s ease;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: var(--cor-sucesso);
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+/* Lista de pedidos */
+.pedidos-lista {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #d0d0d0;
+}
+
+.sem-pedidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #888;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    animation: fadeIn 0.5s ease-out;
+    transition: all 0.3s ease;
+}
+
+/* Cartão de pedido */
+.pedido-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 6px rgb(0 0 0 / 0%);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    animation: slideIn 0.3s ease-out;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.pedido-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilo específico para cards de delivery */
+.pedido-card.delivery {
+    /* border-left: 3px solid #28a745; */
+}
+
+/* Estilo específico para cards de balcão */
+.pedido-card.balcao {
+    border-left: 3px solid #0088cc;
+}
+
+.pedido-card.destacado {
+    animation: highlight 2s ease;
+}
+
+.pedido-card.movendo-direita {
+    animation: moveRight 0.8s ease-in-out;
+}
+
+.pedido-card.movendo-esquerda {
+    animation: moveLeft 0.8s ease-in-out;
+}
+
+.pedido-card.novo {
+    animation: pulse 0.5s ease-in-out;
+}
+
+/* Cabeçalho do card */
+.pedido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.pedido-numero {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+.pedido-data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #e9f5ff;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #0088cc;
+}
+
+/* Informações do cliente */
+.pedido-cliente {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cliente-nome {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+.cliente-telefone {
+    color: #666;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.cliente-telefone:before {
+    content: '\f095';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 10px;
+    color: #888;
+}
+
+/* Endereço */
+.pedido-endereco {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pedido-endereco:before {
+    content: '\f3c5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #888;
+    font-size: 10px;
+    flex-shrink: 0;
+}
+
+/* Itens do pedido */
+.pedido-itens {
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #444;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Valores e pagamento */
+.pedido-valores {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 12px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.valor-total {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+
+.forma-pagamento {
+    color: #666;
+    font-size: 12px;
+}
+
+.forma-pagamento .pagamento {
+    font-weight: 600;
+    color: #444;
+}
+
+/* Botões de ação */
+.pedido-acoes {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.btn-avancar, .btn-finalizar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.btn-avancar {
+    background-color: #0088cc;
+    color: white;
+}
+
+.btn-finalizar {
+    background-color: #28a745;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.btn-finalizar:after {
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.btn-avancar:hover, .btn-finalizar:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-imprimir, .btn-cancelar {
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    font-size: 11px;
+}
+
+.btn-imprimir {
+    background-color: #f8f9fa;
+    color: #0088cc;
+    border: 1px solid #dee2e6;
+}
+
+.btn-cancelar {
+    background-color: #f8f9fa;
+    color: #dc3545;
+    border: 1px solid #dee2e6;
+}
+
+.btn-imprimir:hover, .btn-cancelar:hover {
+    transform: translateY(-1px);
+}
+
+.btn-imprimir:hover {
+    background-color: #0088cc;
+    color: white;
+    border-color: #0088cc;
+}
+
+.btn-cancelar:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+/* Adicionar botão para escolher entregador */
+.escolher-entregador {
+    color: #0088cc;
+    text-decoration: none;
+    font-size: 11px;
+    font-style: italic;
+    display: inline-block;
+    margin-left: auto;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.escolher-entregador:hover {
+    color: #005580;
+    text-decoration: underline;
+}
+
+/* Estilo para o número do pedido */
+.pedido-numero .numero {
+    font-weight: 600;
+}
+
+/* Estilo para o total */
+.valor-total .total {
+    font-size: 14px;
+    color: #28a745;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    /* padding: 15px; */
+    border-radius: var(--raio-borda);
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+    transition: all 0.3s ease;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    /* top: 20px; */
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #ff0000;
+    color: #fff;
+    padding: 2px 13px;
+    border-radius: 26%;
+}
+
+.close:hover {
+    color: var(--cor-perigo);
+    /* transform: rotate(90deg); */
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-salvar {
+    background-color: var(--cor-sucesso);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn-salvar:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.btn-salvar:active {
+    transform: translateY(0);
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .fluxo-header-compact, .fluxo-filtros-compact {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .fluxo-title-actions, .fluxo-extraidos,
+    .filtros-group, .busca-group {
+        width: 100%;
+    }
+    
+    .fluxo-extraidos {
+        align-items: flex-start;
+    }
+    
+    .fluxo-colunas {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    
+    .coluna {
+        margin-bottom: 10px;
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .busca-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .busca-pedido, .busca-cliente {
+        width: 100%;
+    }
+    
+    .busca-pedido input, .busca-cliente input {
+        width: 100%;
+    }
+}
+
+/* Estilos para o modal de detalhes do pedido */
+.modal-detalhes {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-detalhes-content {
+    background-color: white;
+    margin: 2% auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-bottom: 20px; */
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.modal-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.modal-header-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-imprimir-header, .btn-excluir-header {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-imprimir-header:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-excluir-header:hover {
+    background-color: #ffebee;
+    border-color: #ffcdd2;
+    color: #d32f2f;
+}
+
+.modal-footer .acoes-pedido {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-finalizar-modal {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.btn-finalizar-modal:hover {
+    background-color: #45a049;
+}
+
+.modal-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pedido-icon-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pedido-icon-number i {
+    font-size: 20px;
+    color: #555;
+}
+
+.pedido-icon-number h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.status-tag {
+    background-color: #28a745;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.modal-data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e9f5ff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #0088cc;
+}
+
+.modal-body {
+    padding: 15px 20px;
+    overflow-y: auto;
+}
+
+.modal-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cliente-info, .pedido-agendado, .entrega-info, .pagamento-info, .origem-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.cliente-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 18px;
+}
+
+.cliente-dados {
+    flex: 1;
+}
+
+.cliente-nome {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.cliente-telefone {
+    color: #0088cc;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.cliente-historico {
+    font-size: 13px;
+    color: #666;
+}
+
+.pedidos-count {
+    font-weight: 600;
+    color: #28a745;
+}
+
+.btn-editar-info {
+    background: none;
+    border: none;
+    color: #0088cc;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.btn-editar-info:hover {
+    background-color: #f0f0f0;
+}
+
+.pedido-agendado i, .entrega-info i, .pagamento-info i, .origem-info i {
+    font-size: 18px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.agendamento-info, .endereco-entrega, .forma-pagamento, .origem-pedido {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.pedido-gerado, .pagamento-detalhe {
+    font-size: 13px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.escolher-entregador-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #0088cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.escolher-entregador-link:hover {
+    text-decoration: underline;
+}
+
+.modal-items {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.modal-items h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.items-list {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.item-info {
+    display: flex;
+    gap: 5px;
+}
+
+.item-quantidade {
+    font-weight: 600;
+    color: #0088cc;
+}
+
+.item-nome {
+    font-weight: 600;
+}
+
+.item-preco {
+    font-weight: 600;
+}
+
+.item-adicionais {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.adicional {
+    margin-bottom: 5px;
+}
+
+.adicional-nome {
+    font-weight: 500;
+}
+
+.adicional-opcao {
+    color: #555;
+}
+
+.adicional-opcoes {
+    margin-left: 15px;
+    color: #555;
+}
+
+.resumo-valores {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.valor-linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.valor-linha.total {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #eee;
+    /* position: fixed; */
+    bottom: 0;
+}
+
+.acoes-pedido {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-excluir {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #dc3545;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.btn-excluir:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-imprimir-modal, .btn-finalizar-modal {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+}
+
+.btn-imprimir-modal {
+    background-color: #f8f9fa;
+    color: #0088cc;
+    border: 1px solid #dee2e6;
+}
+
+.btn-finalizar-modal {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-imprimir-modal:hover, .btn-finalizar-modal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-imprimir-modal:hover {
+    background-color: #e9ecef;
+}
+
+.btn-finalizar-modal:hover {
+    background-color: #218838;
+}
+
+/* Responsividade para o modal */
+@media (max-width: 768px) {
+    .modal-detalhes-content {
+        width: 95%;
+        margin: 5% auto;
+    }
+    
+    .modal-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .modal-data {
+        align-self: flex-start;
+    }
+}
+
+/* Adicione este CSS ao seu arquivo fluxo_pedidos.css */
+.modal-columns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.modal-left-column, 
+.modal-right-column {
+    flex: 1;
+}
+
+.modal-detalhes-content {
+    width: 90%;
+    max-width: 1200px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .modal-columns-container {
+        flex-direction: column;
+    }
+}
+
+.notificacao-toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
+    transform: translateX(120%);
+    transition: transform 0.3s ease;
+}
+
+.notificacao-toast.mostrar {
+    transform: translateX(0);
+} 

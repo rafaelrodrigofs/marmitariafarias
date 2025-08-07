@@ -1,0 +1,139 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+}
+ /* Container principal do menu */
+ #menu {
+    position: relative;
+    /* padding: 10px; */
+}
+
+/* Estilo para os títulos das categorias */
+#menu h3 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    color: var(--gray-800);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--primary);
+    background-color: #f1f5f9;
+    z-index: 999;
+}
+
+/* Ajuste para o primeiro h3 */
+#menu h3:first-of-type {
+    margin-top: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #menu h3 {
+        /* top: 54px; */
+        background: #f1f5f9;
+    }
+}
+.categoria-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    padding: 0 15px;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 0.875rem;
+    color: var(--gray-700);
+    text-decoration: none;
+    transition: all 0.2s;
+    border-left: 3px solid transparent;
+    background: var(--white);
+    border-radius: 10px;
+    /* padding: 1.5rem; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: all 0.3sease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    text-align: center;
+    top: 70px;
+    position: sticky;
+    /* margin-bottom: 10px; */
+}
+.menu-item:hover {
+    background: var(--gray-50);
+    color: var(--primary);
+    border-left-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* z-index: -1; */
+}
+.menu-item-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--gray-800);
+    width: 100%;
+    text-align: center;
+    padding: 0 12px;
+}
+.menu-item .preco {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 0.975rem;
+    box-shadow: 0 2px 4px rgba(96, 187, 81, 0.2);
+    min-width: 120px;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* position: relative; */
+}
+
+.menu-item-image {
+    /* right: 0; */
+    width: 120px;
+    height: 100%;
+    /* margin-left: 10px; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* position: fixed; */
+}
+
+.menu-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-item-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+}
+
+.menu-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+

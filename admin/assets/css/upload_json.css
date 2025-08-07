@@ -1,0 +1,299 @@
+*{
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    height: 100%;
+}
+
+.btn-notificar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-notificar:hover {
+    background-color: #45a049;
+}
+
+.btn-notificar i {
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ th, td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+ }
+ th {
+     background-color: #f2f2f2;
+ }
+ .upload-form {
+     position: sticky;
+     top: 0;
+     margin-bottom: 20px;
+     padding: 20px;
+     background-color: #f8f8f8;
+     border-radius: 5px;
+ }
+ .status-cadastrado {
+     color: green;
+     font-weight: bold;
+ }
+ .status-nao-cadastrado {
+     color: red;
+     font-weight: bold;
+ }
+ .acompanhamentos {
+     font-size: 0.9em;
+     color: #666;
+     margin-top: 5px;
+ }
+ .produto-item {
+     margin-bottom: 10px;
+     padding: 5px;
+     border-bottom: 1px solid #eee;
+ }
+ .quantidade {
+     font-weight: bold;
+     color: #444;
+ }
+ .btn-cadastrar {
+     background-color: #4CAF50;
+     color: white;
+     padding: 5px 10px;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     font-size: 12px;
+     margin-left: 10px;
+ }
+ .btn-cadastrar:hover {
+     background-color: #45a049;
+ }
+ .produto-item {
+     margin-bottom: 15px;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+ }
+ .acompanhamentos {
+     margin-left: 20px;
+     margin-top: 5px;
+ }
+ .item-row {
+     display: flex;
+     align-items: center;
+     margin-bottom: 5px;
+ }
+ .modal {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0,0,0,0.5);
+ }
+ .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+     max-width: 500px;
+ }
+ .close {
+     float: right;
+     cursor: pointer;
+     font-size: 28px;
+ }
+ .acoes-em-massa {
+     margin-bottom: 20px;
+     padding: 10px;
+     background-color: #f8f9fa;
+     border-radius: 5px;
+ }
+ .btn-cadastrar-todos,
+ .btn-gravar-todos {
+     padding: 10px 20px;
+     margin-right: 10px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ .btn-cadastrar-todos {
+     background-color: #28a745;
+     color: white;
+ }
+ .btn-gravar-todos {
+     background-color: #007bff;
+     color: white;
+ }
+ .btn-cadastrar-todos:hover,
+ .btn-gravar-todos:hover {
+     opacity: 0.9;
+ }
+ .pedido-duplicado {
+     background-color: #90EE90 !important; /* Verde claro */
+     /* display: flex; */
+     /* width: 100%; */
+     font-weight: 600;
+ }
+ td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+     vertical-align: top; /* Alinha conteúdo ao topo */
+ }
+ 
+ /* Estilo para a coluna de valores */
+ .valores-pedido {
+     font-size: 0.9em;
+     line-height: 1.4;
+ }
+ 
+ .valores-pedido .subtotal {
+     color: #666;
+ }
+ 
+ .valores-pedido .taxa {
+     color: #888;
+ }
+ 
+ .valores-pedido .total {
+     font-weight: bold;
+     color: #444;
+ }
+ 
+ .valores-banco .match {
+     color: #28a745;  /* Verde para valores que correspondem */
+ }
+ 
+ .valores-banco .mismatch {
+     color: #dc3545;  /* Vermelho para valores que não correspondem */
+     font-weight: bold;
+ }
+ 
+ .valores-banco {
+     font-size: 0.9em;
+     line-height: 1.4;
+ }
+ 
+ .valores-pedido,
+ .valores-banco {
+     min-width: 150px;
+ }
+
+/* Estilos para cupons */
+.cupom-info {
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.cupom-nome {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.cupom-valor {
+    color: #dc3545;
+}
+
+.match.cupom-valor {
+    color: #28a745;
+}
+
+.mismatch.cupom-valor {
+    color: #dc3545;
+    font-weight: bold;
+    background-color: #fff3cd;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Estilos para os botões de gravar, regravar e excluir */
+.btn-gravar-pedido,
+.btn-regravar-pedido,
+.btn-excluir-pedido {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    margin: 0 2px;
+}
+
+.btn-gravar-pedido {
+    background-color: #2196F3; /* Azul material design */
+    color: white;
+    box-shadow: 0 2px 5px rgba(33, 150, 243, 0.3);
+}
+
+.btn-gravar-pedido:hover {
+    background-color: #1976D2;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-regravar-pedido {
+    background-color: #FF9800; /* Laranja material design */
+    color: white;
+    box-shadow: 0 2px 5px rgba(255, 152, 0, 0.3);
+}
+
+.btn-regravar-pedido:hover {
+    background-color: #F57C00;
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-excluir-pedido {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    box-shadow: 0 2px 5px rgba(220, 53, 69, 0.3);
+}
+
+.btn-excluir-pedido:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-excluir-pedido:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.btn-excluir-pedido:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
